@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>a lonely fisherman</title>
+  
+  <subtitle>江雪独钓寒</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://haibaraxx.github.io/"/>
+  <updated>2017-09-27T10:35:41.000Z</updated>
+  <id>https://haibaraxx.github.io/</id>
+  
+  <author>
+    <name>蓑笠翁</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my first post</title>
+    <link href="https://haibaraxx.github.io/Python/my-first-post/"/>
+    <id>https://haibaraxx.github.io/Python/my-first-post/</id>
+    <published>2017-09-26T10:32:43.000Z</published>
+    <updated>2017-09-27T10:35:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>hahaha</p><h2 id="Why-Python"><a href="#Why-Python" class="headerlink" title="Why Python"></a>Why Python</h2><h3 id="open-source"><a href="#open-source" class="headerlink" title="open source"></a>open source</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</div><div class="line"></div><div class="line"><span class="keyword">for</span> i=<span class="number">1</span>:length(n):</div><div class="line"></div><div class="line"><span class="comment"># array([[1, 2],</span></div><div class="line">       [<span class="number">3</span>, <span class="number">4</span>]])</div></pre></td></tr></table></figure><p>% asset_ipynb <hi.ipynb> %</hi.ipynb></p><h3 id="scipy"><a href="#scipy" class="headerlink" title="scipy"></a>scipy</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> <span class="built_in">i</span>=<span class="number">1</span>:n</div><div class="line">    fid=fopen(filenames&#123;i&#125;,<span class="string">'r'</span>);</div><div class="line">    tline=fgetl(fid);</div><div class="line">    <span class="comment">% get the wavelengths from the 1st line</span></div><div class="line">    wvl=str2num(tline(<span class="number">20</span>:<span class="keyword">end</span>)); </div><div class="line"></div><div class="line">    <span class="comment">% get all the labels</span></div><div class="line">    label=[];</div><div class="line">    <span class="keyword">while</span> ~feof(fid)</div><div class="line">        tline=fgetl(fid);</div><div class="line">        label0=textscan(tline,<span class="string">'%s %s %s %s'</span>,<span class="number">1</span>);</div><div class="line">        label=[label;label0];</div><div class="line">    <span class="keyword">end</span></div><div class="line">    clear label0 </div><div class="line">    fclose(fid)</div><div class="line">    <span class="comment">% get all the data</span></div><div class="line">    data=dlmread(filenames&#123;i&#125;,<span class="string">' '</span>,<span class="number">1</span>,<span class="number">4</span>);</div><div class="line"></div><div class="line">qft_data.wvl=wvl;</div><div class="line">qft_data.label=label;</div><div class="line">qft_data.data=data;</div><div class="line">str=[<span class="string">'qft_data'</span> num2str(i) <span class="string">'.mat'</span>];</div><div class="line">save (str,<span class="string">'qft_data'</span>,<span class="string">'-mat'</span>) </div><div class="line"><span class="keyword">end</span></div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;hahaha&lt;/p&gt;
+&lt;h2 id=&quot;Why-Python&quot;&gt;&lt;a href=&quot;#Why-Python&quot; class=&quot;headerlink&quot; title=&quot;Why Python&quot;&gt;&lt;/a&gt;Why Python&lt;/h2&gt;&lt;h3 id=&quot;open-source&quot;&gt;&lt;a hre
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://haibaraxx.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="https://haibaraxx.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hi</title>
+    <link href="https://haibaraxx.github.io/Python/Untitled1/Untitled1/"/>
+    <id>https://haibaraxx.github.io/Python/Untitled1/Untitled1/</id>
+    <published>2017-09-26T10:32:43.000Z</published>
+    <updated>2017-09-27T10:38:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">print(<span class="string">'I love Python'</span>)</div></pre></td></tr></table></figure><pre><code>I love Python</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">x = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</div><div class="line">plt.plot(x);</div></pre></td></tr></table></figure><pre><code>---------------------------------------------------------------------------NameError                                 Traceback (most recent call last)&lt;ipython-input-2-38b633f12fcd&gt; in &lt;module&gt;()      1 x = [1,2,3,4,5]----&gt; 2 plt.plot(x);NameError: name &apos;plt&apos; is not defined</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> matplotlib <span class="keyword">as</span> plt</div><div class="line">plt.plot(x)</div></pre></td></tr></table></figure><pre><code>---------------------------------------------------------------------------AttributeError                            Traceback (most recent call last)&lt;ipython-input-3-6a539ec243d1&gt; in &lt;module&gt;()      1 import matplotlib as plt----&gt; 2 plt.plot(x)AttributeError: module &apos;matplotlib&apos; has no attribute &apos;plot&apos;</code></pre><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plt.plot??</div></pre></td></tr></table></figure><pre><code>Object `plt.plot` not found.</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line">plt.plot(x)</div></pre></td></tr></table></figure><pre><code>[&lt;matplotlib.lines.Line2D at 0x11a002c50&gt;]</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">%matplotlib inline</div><div class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</div><div class="line">plt.plot(x)</div></pre></td></tr></table></figure><pre><code>[&lt;matplotlib.lines.Line2D at 0x11a08df98&gt;]</code></pre><p><img src="output_5_1.png" alt="png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;li
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://haibaraxx.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="https://haibaraxx.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://haibaraxx.github.io/uncategorized/hello-world/"/>
+    <id>https://haibaraxx.github.io/uncategorized/hello-world/</id>
+    <published>2017-09-26T10:14:59.000Z</published>
+    <updated>2017-09-26T10:14:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
