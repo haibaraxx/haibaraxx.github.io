@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>https://haibaraxx.github.io/Python/JupyterNotebook-chpath/</loc>
+    <lastmod>2017-09-28T20:48:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac下改变Jupyter Notebook默认目录路径</title>
+        <pubTime>2017-09-28T20:34:13.000Z</pubTime>
+        
+        <tag>Mac </tag>
+         
+        <tag>Python </tag>
+         
+        <tag>Jupyter Notebook </tag>
+         
+        <tag>iPython </tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://haibaraxx.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://haibaraxx.github.io/Hexo/hexo_addcopyright/</loc>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haibaraxx.github.io/"/>
-  <updated>2017-09-28T19:18:39.000Z</updated>
+  <updated>2017-09-28T20:48:23.000Z</updated>
   <id>https://haibaraxx.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac下改变Jupyter Notebook默认目录路径</title>
+    <link href="https://haibaraxx.github.io/Python/JupyterNotebook-chpath/"/>
+    <id>https://haibaraxx.github.io/Python/JupyterNotebook-chpath/</id>
+    <published>2017-09-28T20:34:13.000Z</published>
+    <updated>2017-09-28T20:48:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="永久更改默认目录路径"><a href="#永久更改默认目录路径" class="headerlink" title="永久更改默认目录路径"></a>永久更改默认目录路径</h2><p>1）创建Jupyter Notebook的配置文件jupyter_notebook_config.py，在终端中输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ jupyter notebook --generate-config</div></pre></td></tr></table></figure><p>2) 打开jupyter_notebook_config.py,找到如下文字：</p><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">## The default URL to redirect to from `/`</div><div class="line">#c.NotebookApp.default_url = '/tree'</div></pre></td></tr></table></figure><p>将其修改为：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">## The default URL to redirect to from `/`</div><div class="line">c.NotebookApp.default_url = <span class="string">'/tree/Coding'</span></div></pre></td></tr></table></figure></p><p>此时，Jupyter notebook的默认目录路径就变成了/home/Coding, 即Users/yliu/Coding</p><p>注：该方法只能通过home目录启动Jupyter Notebook，从其他目录启动会出现Jupyter Notebook网页无法显示的状态,因而该方法轻易不要使用。启动方式如下（终端）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yliu-16:52:26:~$ ipython notebook</div></pre></td></tr></table></figure></p><p>而不能是:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yliu-16:53:53:Coding$ ipython notebook</div></pre></td></tr></table></figure></p><h2 id="单次更改目录路径"><a href="#单次更改目录路径" class="headerlink" title="单次更改目录路径"></a>单次更改目录路径</h2><p>1）在终端中cd到目标目录：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> ~/Coding</div></pre></td></tr></table></figure></p><p>2) 在终端中输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yliu-16:53:53:Coding$ ipython notebook</div></pre></td></tr></table></figure></p><p>注：该方法的前提是不对Jupyter Notebook的配置文件jupyter_notebook_config.py做任何更改。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;永久更改默认目录路径&quot;&gt;&lt;a href=&quot;#永久更改默认目录路径&quot; class=&quot;headerlink&quot; title=&quot;永久更改默认目录路径&quot;&gt;&lt;/a&gt;永久更改默认目录路径&lt;/h2&gt;&lt;p&gt;1）创建Jupyter Notebook的配置文件jupyter_noteb
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://haibaraxx.github.io/categories/Python/"/>
+    
+    
+      <category term="Mac" scheme="https://haibaraxx.github.io/tags/Mac/"/>
+    
+      <category term="Python" scheme="https://haibaraxx.github.io/tags/Python/"/>
+    
+      <category term="Jupyter Notebook" scheme="https://haibaraxx.github.io/tags/Jupyter-Notebook/"/>
+    
+      <category term="iPython" scheme="https://haibaraxx.github.io/tags/iPython/"/>
+    
+  </entry>
   
   <entry>
     <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
