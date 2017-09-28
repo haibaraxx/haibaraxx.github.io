@@ -207,7 +207,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 h1,
@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d6884b;
+  background: #6e1ccb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2891,12 +2891,12 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-title {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 @media (min-width: 1600px) {
   .posts-expand .post-title {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 .posts-expand .post-title:hover:before {
@@ -2904,7 +2904,7 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-body {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 .posts-expand .post-body img {
@@ -2940,12 +2940,12 @@ hr {
 }
 @media (max-width: 767px) {
   .post-button a {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 @media (min-width: 1600px) {
   .post-button a {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 .post-button a:hover {
@@ -3007,11 +3007,18 @@ hr {
 }
 .footer-inner {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .footer-inner {
     width: auto;
     text-align: center;
   }
+}
+.post-copyright {
+  margin: 1.5em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f8f8f8;
+  list-style: none;
 }

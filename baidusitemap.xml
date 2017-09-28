@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>https://haibaraxx.github.io/Linux/GeanyandSublime/</loc>
+    <lastmod>2017-09-28T18:50:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
+        <pubTime>2017-09-28T18:30:16.000Z</pubTime>
+        
+        <tag>Linux Mac Geany Sublime Text </tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://haibaraxx.github.io/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/Hexo/hexo_addcopyright/</loc>
+    <lastmod>2017-09-28T18:29:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>NexT主题下为Hexo博文添加版权信息</title>
+        <pubTime>2017-09-28T18:02:14.000Z</pubTime>
+        
+        <tag>Hexo </tag>
+         
+        <tag>NexT </tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="https://haibaraxx.github.io/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://haibaraxx.github.io/Python/Untitled1/Untitled1/</loc>
