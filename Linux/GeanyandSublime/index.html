@@ -79,7 +79,7 @@
 <meta property="og:site_name" content="a lonely fisherman">
 <meta property="og:description" content="问题当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：12$ vi [path of a text file]$ emacs [path of a text file] 那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。 方法一：open命令在终端中输入：1$ open [p">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-28T19:05:30.000Z">
+<meta property="og:updated_time" content="2017-09-28T19:18:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在Mac终端上用Geany和Sublime Text打开文本文件">
 <meta name="twitter:description" content="问题当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：12$ vi [path of a text file]$ emacs [path of a text file] 那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。 方法一：open命令在终端中输入：1$ open [p">
@@ -393,14 +393,14 @@
       
 
       
-        <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> vi [path of a text file]</div><div class="line"><span class="meta">$</span> emacs [path of a text file]</div></pre></td></tr></table></figure></p>
+        <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ vi [path of a text file]</div><div class="line">$ emacs [path of a text file]</div></pre></td></tr></table></figure></p>
 <p>那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。</p>
-<h2 id="方法一：open命令"><a href="#方法一：open命令" class="headerlink" title="方法一：open命令"></a>方法一：open命令</h2><p>在终端中输入：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> open [path of a text file] -a [path of the program]</div></pre></td></tr></table></figure></p>
-<h3 id="Geany"><a href="#Geany" class="headerlink" title="Geany"></a>Geany</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> open [path of a text file] -a /Applications/Geany.app</div></pre></td></tr></table></figure>
-<h3 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> open [path of a text file] -a /Applications/Sublime\ Text.app  </div><div class="line"><span class="meta">#</span> 空格的表示法为\空格。</div></pre></td></tr></table></figure>
-<h2 id="方法二：自定义命令（推荐）"><a href="#方法二：自定义命令（推荐）" class="headerlink" title="方法二：自定义命令（推荐）"></a>方法二：自定义命令（推荐）</h2><h3 id="1-在-bashrc文件中添加如下内容并保存。"><a href="#1-在-bashrc文件中添加如下内容并保存。" class="headerlink" title="1. 在.bashrc文件中添加如下内容并保存。"></a>1. 在.bashrc文件中添加如下内容并保存。</h3><h3 id="Geany-1"><a href="#Geany-1" class="headerlink" title="Geany"></a>Geany</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">export geany=/Applications/Geany.app/Contents/MacOS</div><div class="line">export PATH=$geany:$PATH</div></pre></td></tr></table></figure>
-<h3 id="Sublime-Text-1"><a href="#Sublime-Text-1" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">export subl=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin </div><div class="line">export PATH=$subl:$PATH</div></pre></td></tr></table></figure>
-<h3 id="2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"><a href="#2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。" class="headerlink" title="2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"></a>2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> geany [path of a text file]</div><div class="line"><span class="meta">$</span> subl [path of a text file]</div></pre></td></tr></table></figure>
+<h2 id="方法一：open命令"><a href="#方法一：open命令" class="headerlink" title="方法一：open命令"></a>方法一：open命令</h2><p>在终端中输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ open [path of a text file] -a [path of the program]</div></pre></td></tr></table></figure></p>
+<h3 id="Geany"><a href="#Geany" class="headerlink" title="Geany"></a>Geany</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ open [path of a text file] -a /Applications/Geany.app</div></pre></td></tr></table></figure>
+<h3 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ open [path of a text file] -a /Applications/Sublime\ Text.app  </div><div class="line"><span class="comment"># 空格的表示法为\空格。</span></div></pre></td></tr></table></figure>
+<h2 id="方法二：自定义命令（推荐）"><a href="#方法二：自定义命令（推荐）" class="headerlink" title="方法二：自定义命令（推荐）"></a>方法二：自定义命令（推荐）</h2><h3 id="1-在-bashrc文件中添加如下内容并保存。"><a href="#1-在-bashrc文件中添加如下内容并保存。" class="headerlink" title="1. 在.bashrc文件中添加如下内容并保存。"></a>1. 在.bashrc文件中添加如下内容并保存。</h3><h3 id="Geany-1"><a href="#Geany-1" class="headerlink" title="Geany"></a>Geany</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> geany=/Applications/Geany.app/Contents/MacOS</div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$geany</span>:<span class="variable">$PATH</span></div></pre></td></tr></table></figure>
+<h3 id="Sublime-Text-1"><a href="#Sublime-Text-1" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> subl=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin </div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$subl</span>:<span class="variable">$PATH</span></div></pre></td></tr></table></figure>
+<h3 id="2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"><a href="#2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。" class="headerlink" title="2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"></a>2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ geany [path of a text file]</div><div class="line">$ subl [path of a text file]</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -568,7 +568,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
