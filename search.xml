@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[Mac下改变Jupyter Notebook默认目录路径]]></title>
-    <url>%2F%5Bobject%20Object%5D%2FJupyterNotebook-chpath%2F</url>
+    <url>%2FJupyterNotebook-chpath%2F</url>
     <content type="text"><![CDATA[永久更改默认目录路径1）创建Jupyter Notebook的配置文件jupyter_notebook_config.py，在终端中输入： 1$ jupyter notebook --generate-config 2) 打开jupyter_notebook_config.py,找到如下文字： 12## The default URL to redirect to from `/`#c.NotebookApp.default_url = '/tree' 将其修改为：12## The default URL to redirect to from `/`c.NotebookApp.default_url = '/tree/Coding' 此时，Jupyter notebook的默认目录路径就变成了/home/Coding, 即Users/yliu/Coding 注：该方法只能通过home目录启动Jupyter Notebook，从其他目录启动会出现Jupyter Notebook网页无法显示的状态,因而该方法轻易不要使用。启动方式如下（终端）：1$ yliu-16:52:26:~$ ipython notebook 而不能是:1$ yliu-16:53:53:Coding$ ipython notebook 单次更改目录路径1）在终端中cd到目标目录：1$ cd ~/Coding 2) 在终端中输入1$ yliu-16:53:53:Coding$ ipython notebook 注：该方法的前提是不对Jupyter Notebook的配置文件jupyter_notebook_config.py做任何更改。]]></content>
       <categories>
         <category>Python</category>
@@ -16,7 +16,7 @@
   </entry>
   <entry>
     <title><![CDATA[在Mac终端上用Geany和Sublime Text打开文本文件]]></title>
-    <url>%2F%5Bobject%20Object%5D%2FGeanyandSublime%2F</url>
+    <url>%2FGeanyandSublime%2F</url>
     <content type="text"><![CDATA[问题当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：12$ vi [path of a text file]$ emacs [path of a text file] 那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。 方法一：open命令在终端中输入：1$ open [path of a text file] -a [path of the program] Geany1$ open [path of a text file] -a /Applications/Geany.app Sublime Text12$ open [path of a text file] -a /Applications/Sublime\ Text.app # 空格的表示法为\空格。 方法二：自定义命令（推荐）1. 在.bashrc文件中添加如下内容并保存。Geany12export geany=/Applications/Geany.app/Contents/MacOSexport PATH=$geany:$PATH Sublime Text12export subl=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin export PATH=$subl:$PATH 2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。12$ geany [path of a text file]$ subl [path of a text file]]]></content>
       <categories>
         <category>Linux</category>
@@ -30,7 +30,7 @@
   </entry>
   <entry>
     <title><![CDATA[NexT主题下为Hexo博文添加版权信息]]></title>
-    <url>%2F%5Bobject%20Object%5D%2Fhexo_addcopyright%2F</url>
+    <url>%2Fhexo_addcopyright%2F</url>
     <content type="text"><![CDATA[添加版权信息打开themes目录下的/next/layout/_macro/post.swig文件，找到post-footer标签，并添加如下代码：12345678910111213141516171819&lt;footer class="post-footer"&gt; &#123;% if post.tags and post.tags.length and not is_index %&#125;&lt;div&gt; &#123;% if not is_index %&#125;&lt;ul class="post-copyright"&gt; &lt;li class="post-copyright-author"&gt; &lt;strong&gt;本文作者：&lt;/strong&gt;&#123;&#123; theme.author &#125;&#125; &lt;/li&gt; &lt;li class="post-copyright-link"&gt; &lt;strong&gt;本文链接：&lt;/strong&gt; &lt;a href="&#123;&#123; url_for(page.path) &#125;&#125;" title="&#123;&#123; page.title &#125;&#125;"&gt;&#123;&#123; page.path &#125;&#125;&lt;/a&gt; &lt;/li&gt; &lt;li class="post-copyright-license"&gt; &lt;strong&gt;许可协议： &lt;/strong&gt; 除特殊声明外，本站博文均采用 &lt;a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank"&gt;CC BY-NC-SA 3.0 CN&lt;/a&gt; 许可协议，转载请注明出处！ &lt;/li&gt;&lt;/ul&gt;&#123;% endif %&#125;&lt;/div&gt; 版权信息格式打开themes目录下的/next/source/css/_custom/custom.styl 文件，并添加如下代码：1234567.post-copyright &#123; margin: 0.5em 0 0; padding: 0.5em 1em; border-left: 3px solid #ff1700; background-color: #f8f8f8; list-style: none;&#125;]]></content>
       <categories>
         <category>Hexo</category>
@@ -42,7 +42,7 @@
   </entry>
   <entry>
     <title><![CDATA[hi]]></title>
-    <url>%2F%5Bobject%20Object%5D%2FUntitled1%2FUntitled1%2F</url>
+    <url>%2FUntitled1%2FUntitled1%2F</url>
     <content type="text"><![CDATA[1print('I love Python') I love Python 12x = [1,2,3,4,5]plt.plot(x); --------------------------------------------------------------------------- NameError Traceback (most recent call last) &lt;ipython-input-2-38b633f12fcd&gt; in &lt;module&gt;() 1 x = [1,2,3,4,5] ----&gt; 2 plt.plot(x); NameError: name &apos;plt&apos; is not defined 12import matplotlib as pltplt.plot(x) --------------------------------------------------------------------------- AttributeError Traceback (most recent call last) &lt;ipython-input-3-6a539ec243d1&gt; in &lt;module&gt;() 1 import matplotlib as plt ----&gt; 2 plt.plot(x) AttributeError: module &apos;matplotlib&apos; has no attribute &apos;plot&apos; 1plt.plot?? Object `plt.plot` not found. 12import matplotlib.pyplot as pltplt.plot(x) [&lt;matplotlib.lines.Line2D at 0x11a002c50&gt;] 123%matplotlib inlineimport matplotlib.pyplot as pltplt.plot(x) [&lt;matplotlib.lines.Line2D at 0x11a08df98&gt;]]]></content>
       <categories>
         <category>Python</category>

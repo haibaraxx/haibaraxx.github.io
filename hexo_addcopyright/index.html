@@ -53,7 +53,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Linux,Mac,Geany,Sublime Text," />
+  <meta name="keywords" content="Hexo,NexT," />
 
 
 
@@ -71,18 +71,18 @@
 
 
 
-<meta name="description" content="问题当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：12$ vi [path of a text file]$ emacs [path of a text file] 那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。 方法一：open命令在终端中输入：1$ open [p">
-<meta name="keywords" content="Linux,Mac,Geany,Sublime Text">
+<meta name="description" content="添加版权信息打开themes目录下的/next/layout/_macro/post.swig文件，找到post-footer标签，并添加如下代码：12345678910111213141516171819&amp;lt;footer class=&quot;post-footer&quot;&amp;gt; &amp;#123;% if post.tags and post.tags.length and not is_index %&amp;#">
+<meta name="keywords" content="Hexo,NexT">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在Mac终端上用Geany和Sublime Text打开文本文件">
-<meta property="og:url" content="https://haibaraxx.github.io/[object Object]/GeanyandSublime/index.html">
+<meta property="og:title" content="NexT主题下为Hexo博文添加版权信息">
+<meta property="og:url" content="https://haibaraxx.github.io/hexo_addcopyright/index.html">
 <meta property="og:site_name" content="a lonely fisherman">
-<meta property="og:description" content="问题当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：12$ vi [path of a text file]$ emacs [path of a text file] 那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。 方法一：open命令在终端中输入：1$ open [p">
+<meta property="og:description" content="添加版权信息打开themes目录下的/next/layout/_macro/post.swig文件，找到post-footer标签，并添加如下代码：12345678910111213141516171819&amp;lt;footer class=&quot;post-footer&quot;&amp;gt; &amp;#123;% if post.tags and post.tags.length and not is_index %&amp;#">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-28T19:18:39.000Z">
+<meta property="og:updated_time" content="2017-09-28T19:42:37.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在Mac终端上用Geany和Sublime Text打开文本文件">
-<meta name="twitter:description" content="问题当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：12$ vi [path of a text file]$ emacs [path of a text file] 那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。 方法一：open命令在终端中输入：1$ open [p">
+<meta name="twitter:title" content="NexT主题下为Hexo博文添加版权信息">
+<meta name="twitter:description" content="添加版权信息打开themes目录下的/next/layout/_macro/post.swig文件，找到post-footer标签，并添加如下代码：12345678910111213141516171819&amp;lt;footer class=&quot;post-footer&quot;&amp;gt; &amp;#123;% if post.tags and post.tags.length and not is_index %&amp;#">
 
 
 
@@ -112,13 +112,13 @@
 
 
 
-  <link rel="canonical" href="https://haibaraxx.github.io/[object Object]/GeanyandSublime/"/>
+  <link rel="canonical" href="https://haibaraxx.github.io/hexo_addcopyright/"/>
 
 
 
 
 
-  <title>在Mac终端上用Geany和Sublime Text打开文本文件 | a lonely fisherman</title>
+  <title>NexT主题下为Hexo博文添加版权信息 | a lonely fisherman</title>
   
 
 
@@ -299,7 +299,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://haibaraxx.github.io/[object Object]/GeanyandSublime/">
+    <link itemprop="mainEntityOfPage" href="https://haibaraxx.github.io/hexo_addcopyright/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="蓑笠翁">
@@ -316,7 +316,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">在Mac终端上用Geany和Sublime Text打开文本文件</h1>
+          <h1 class="post-title" itemprop="name headline">NexT主题下为Hexo博文添加版权信息</h1>
         
 
         <div class="post-meta">
@@ -328,7 +328,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-28T20:30:16+02:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-28T20:02:14+02:00">
                 2017-09-28
               </time>
             
@@ -351,8 +351,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/categories/Hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo</span>
                   </a>
                 </span>
 
@@ -393,14 +393,8 @@
       
 
       
-        <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>当使用vi和Emacs打开文本文件时，可直接在Linux或者Mac终端输入代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ vi [path of a text file]</div><div class="line">$ emacs [path of a text file]</div></pre></td></tr></table></figure></p>
-<p>那么，有什么办法在终端上使用Geany和Sublime Text打开文本文件呢？以下操作针对Mac OX系统，并不知道是否适用于Linux系统。</p>
-<h2 id="方法一：open命令"><a href="#方法一：open命令" class="headerlink" title="方法一：open命令"></a>方法一：open命令</h2><p>在终端中输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ open [path of a text file] -a [path of the program]</div></pre></td></tr></table></figure></p>
-<h3 id="Geany"><a href="#Geany" class="headerlink" title="Geany"></a>Geany</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ open [path of a text file] -a /Applications/Geany.app</div></pre></td></tr></table></figure>
-<h3 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ open [path of a text file] -a /Applications/Sublime\ Text.app  </div><div class="line"><span class="comment"># 空格的表示法为\空格。</span></div></pre></td></tr></table></figure>
-<h2 id="方法二：自定义命令（推荐）"><a href="#方法二：自定义命令（推荐）" class="headerlink" title="方法二：自定义命令（推荐）"></a>方法二：自定义命令（推荐）</h2><h3 id="1-在-bashrc文件中添加如下内容并保存。"><a href="#1-在-bashrc文件中添加如下内容并保存。" class="headerlink" title="1. 在.bashrc文件中添加如下内容并保存。"></a>1. 在.bashrc文件中添加如下内容并保存。</h3><h3 id="Geany-1"><a href="#Geany-1" class="headerlink" title="Geany"></a>Geany</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> geany=/Applications/Geany.app/Contents/MacOS</div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$geany</span>:<span class="variable">$PATH</span></div></pre></td></tr></table></figure>
-<h3 id="Sublime-Text-1"><a href="#Sublime-Text-1" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> subl=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin </div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$subl</span>:<span class="variable">$PATH</span></div></pre></td></tr></table></figure>
-<h3 id="2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"><a href="#2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。" class="headerlink" title="2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"></a>2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ geany [path of a text file]</div><div class="line">$ subl [path of a text file]</div></pre></td></tr></table></figure>
+        <h2 id="添加版权信息"><a href="#添加版权信息" class="headerlink" title="添加版权信息"></a>添加版权信息</h2><p>打开themes目录下的/next/layout/_macro/post.swig文件，找到post-footer标签，并添加如下代码：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">footer</span> <span class="attr">class</span>=<span class="string">"post-footer"</span>&gt;</span> </div><div class="line">&#123;% if post.tags and post.tags.length and not is_index %&#125;</div><div class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>    </div><div class="line"> &#123;% if not is_index %&#125;</div><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"post-copyright"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"post-copyright-author"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">strong</span>&gt;</span>本文作者：<span class="tag">&lt;/<span class="name">strong</span>&gt;</span>&#123;&#123; theme.author &#125;&#125;</div><div class="line">  <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"post-copyright-link"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">strong</span>&gt;</span>本文链接：<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&#123;&#123; url_for(page.path) &#125;&#125;"</span> <span class="attr">title</span>=<span class="string">"&#123;&#123; page.title &#125;&#125;"</span>&gt;</span>&#123;&#123; page.path &#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"post-copyright-license"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">strong</span>&gt;</span>许可协议： <span class="tag">&lt;/<span class="name">strong</span>&gt;</span></div><div class="line">    除特殊声明外，本站博文均采用 <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"</span> <span class="attr">rel</span>=<span class="string">"external nofollow"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>CC BY-NC-SA 3.0 CN<span class="tag">&lt;/<span class="name">a</span>&gt;</span> 许可协议，转载请注明出处！</div><div class="line">  <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line">&#123;% endif %&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h2 id="版权信息格式"><a href="#版权信息格式" class="headerlink" title="版权信息格式"></a>版权信息格式</h2><p>打开themes目录下的/next/source/css/_custom/custom.styl 文件，并添加如下代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.post-copyright &#123;</div><div class="line">    margin: 0.5em 0 0;</div><div class="line">    padding: 0.5em 1em;</div><div class="line">    border-left: 3px solid <span class="comment">#ff1700;</span></div><div class="line">    background-color: <span class="comment">#f8f8f8;</span></div><div class="line">    list-style: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -452,13 +446,9 @@
     </div>
         <div class="post-tags">
           
-            <a href="/tags/Linux/" rel="tag"># Linux</a>
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
           
-            <a href="/tags/Mac/" rel="tag"># Mac</a>
-          
-            <a href="/tags/Geany/" rel="tag"># Geany</a>
-          
-            <a href="/tags/Sublime-Text/" rel="tag"># Sublime Text</a>
+            <a href="/tags/NexT/" rel="tag"># NexT</a>
           
         </div>
       
@@ -471,8 +461,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/[object Object]/hexo_addcopyright/" rel="next" title="NexT主题下为Hexo博文添加版权信息">
-                <i class="fa fa-chevron-left"></i> NexT主题下为Hexo博文添加版权信息
+              <a href="/Untitled1/Untitled1/" rel="next" title="hi">
+                <i class="fa fa-chevron-left"></i> hi
               </a>
             
           </div>
@@ -481,8 +471,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/[object Object]/JupyterNotebook-chpath/" rel="prev" title="Mac下改变Jupyter Notebook默认目录路径">
-                Mac下改变Jupyter Notebook默认目录路径 <i class="fa fa-chevron-right"></i>
+              <a href="/GeanyandSublime/" rel="prev" title="在Mac终端上用Geany和Sublime Text打开文本文件">
+                在Mac终端上用Geany和Sublime Text打开文本文件 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -656,7 +646,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#问题"><span class="nav-number">1.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方法一：open命令"><span class="nav-number">2.</span> <span class="nav-text">方法一：open命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Geany"><span class="nav-number">2.1.</span> <span class="nav-text">Geany</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sublime-Text"><span class="nav-number">2.2.</span> <span class="nav-text">Sublime Text</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方法二：自定义命令（推荐）"><span class="nav-number">3.</span> <span class="nav-text">方法二：自定义命令（推荐）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-在-bashrc文件中添加如下内容并保存。"><span class="nav-number">3.1.</span> <span class="nav-text">1. 在.bashrc文件中添加如下内容并保存。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Geany-1"><span class="nav-number">3.2.</span> <span class="nav-text">Geany</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sublime-Text-1"><span class="nav-number">3.3.</span> <span class="nav-text">Sublime Text</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。"><span class="nav-number">3.4.</span> <span class="nav-text">2. 重新打开一个终端，输入如下命令就可以用对应的编辑器打开文本文件了。</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#添加版权信息"><span class="nav-number">1.</span> <span class="nav-text">添加版权信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版权信息格式"><span class="nav-number">2.</span> <span class="nav-text">版权信息格式</span></a></li></ol></div>
             
 
           </div>
