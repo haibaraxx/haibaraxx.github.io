@@ -1,4 +1,4 @@
-https://haibaraxx.github.io/Python/JupyterNotebook-chpath/
-https://haibaraxx.github.io/Linux/GeanyandSublime/
-https://haibaraxx.github.io/Hexo/hexo_addcopyright/
-https://haibaraxx.github.io/Python/Untitled1/Untitled1/
+https://haibaraxx.github.io/JupyterNotebook-chpath/
+https://haibaraxx.github.io/GeanyandSublime/
+https://haibaraxx.github.io/hexo_addcopyright/
+https://haibaraxx.github.io/Untitled1/Untitled1/
