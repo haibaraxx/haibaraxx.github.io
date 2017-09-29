@@ -4,14 +4,34 @@
 
     
   <url>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc2/</loc>
+    <lastmod>2017-09-29T21:43:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据</title>
+        <pubTime>2017-09-29T21:41:21.000Z</pubTime>
+        
+        <tag>遥感 遥感器 采样 量化 遥感数据 分辨率</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ocean Optics" url="https://haibaraxx.github.io/categories/Ocean-Optics/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc1/</loc>
-    <lastmod>2017-09-29T20:12:42.000Z</lastmod>
+    <lastmod>2017-09-29T20:20:15.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（一）</title>
         <pubTime>2017-09-29T20:05:23.000Z</pubTime>
         
-        <tag>遥感 数字信号处理</tag>
+        <tag>遥感 数字图像</tag>
          
          
            

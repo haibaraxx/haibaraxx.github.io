@@ -53,7 +53,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="遥感 数字信号处理," />
+  <meta name="keywords" content="遥感 数字图像," />
 
 
 
@@ -72,14 +72,14 @@
 
 
 <meta name="description" content="声明：本文参考中国大学MOOC课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 从字面上看，遥感数字图像处理（Remote Sensing Digital Image Processing）可分解为：  图像处理 数字图像处理 （区别于胶片、纸质等印刷图像） 遥感数字图像处理 （传感器获得的数字图像）  基本概念图像物理世界中客观对象的一种表示。 物理图像自然世界中物质或能量的实际分布。遥感测量">
-<meta name="keywords" content="遥感 数字信号处理">
+<meta name="keywords" content="遥感 数字图像">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《遥感数字图像处理》课程笔记（一）">
 <meta property="og:url" content="https://haibaraxx.github.io/RSdigital-image-proc1/index.html">
 <meta property="og:site_name" content="a lonely fisherman">
 <meta property="og:description" content="声明：本文参考中国大学MOOC课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 从字面上看，遥感数字图像处理（Remote Sensing Digital Image Processing）可分解为：  图像处理 数字图像处理 （区别于胶片、纸质等印刷图像） 遥感数字图像处理 （传感器获得的数字图像）  基本概念图像物理世界中客观对象的一种表示。 物理图像自然世界中物质或能量的实际分布。遥感测量">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-29T20:12:42.000Z">
+<meta property="og:updated_time" content="2017-09-29T20:20:15.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《遥感数字图像处理》课程笔记（一）">
 <meta name="twitter:description" content="声明：本文参考中国大学MOOC课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 从字面上看，遥感数字图像处理（Remote Sensing Digital Image Processing）可分解为：  图像处理 数字图像处理 （区别于胶片、纸质等印刷图像） 遥感数字图像处理 （传感器获得的数字图像）  基本概念图像物理世界中客观对象的一种表示。 物理图像自然世界中物质或能量的实际分布。遥感测量">
@@ -403,10 +403,10 @@
 <h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><h3 id="图像"><a href="#图像" class="headerlink" title="图像"></a>图像</h3><p>物理世界中客观对象的一种表示。</p>
 <h3 id="物理图像"><a href="#物理图像" class="headerlink" title="物理图像"></a>物理图像</h3><p>自然世界中物质或能量的实际分布。<br>遥感测量的是电磁波，表达的是电磁波的分布，而电磁波是一种能量，因而遥感图像实际上是自然界能量的分布。</p>
 <h3 id="数字图像"><a href="#数字图像" class="headerlink" title="数字图像"></a>数字图像</h3><p>物体的数字表示（该物体本身也可以是图像）。<br>像素是离散的单元，是一个量化的整数（称为灰度），量化的灰度就是数字图像量值。<br>量化：1，2，3，4，5…</p>
-<h4 id="像素"><a href="#像素" class="headerlink" title="像素"></a>像素</h4><p>在计算机显示器的屏幕上，图像放大到一定程度时都会变成网格（色块），这些色块具有固定的大小、形状和特性，是构成数字图像最基本的单位，称之为像素。</p>
+<h3 id="像素"><a href="#像素" class="headerlink" title="像素"></a>像素</h3><p>在计算机显示器的屏幕上，图像放大到一定程度时都会变成网格（色块），这些色块具有固定的大小、形状和特性，是构成数字图像最基本的单位，称之为像素。</p>
 <h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>由图、画或照相所产生的表示。是一个物体或事物生动的、图形的、精确的描述，从而会在人脑中产生一幅图像（貌似是我们常说的“画面感”）或给出有关事物准确的描述。</p>
 <h3 id="遥感和遥感图像"><a href="#遥感和遥感图像" class="headerlink" title="遥感和遥感图像"></a>遥感和遥感图像</h3><p>遥感是一种观测手段，遥感图像是通过遥感的手段获得的图像。遥感可以进行对地观测和天文观测，本文中涉及的“遥感”限定为对地观测，通俗地讲就是遥感传感器在天上、并朝向地球观测。</p>
-<h4 id="遥感数字图像"><a href="#遥感数字图像" class="headerlink" title="遥感数字图像"></a>遥感数字图像</h4><p>基于遥感的方式获得的数字图像。遥感(remote sensing) - 获取方式，数字(digital) - 存储方式，图像(image) - 表达。<br>遥感获取图像的方式与电磁波有关，因而遥感数字图像可分为紫外图像、红外图像(Infrared imaging, 800nm+,获得热和温度信息)、可见光图像、多光谱图像(Multispectral imaging)、微波图像（Microwave imaging, 如合成孔径雷达SAR图像）。利用不同时间获得的多景图像可以合成某个区域的完整图像。</p>
+<h3 id="遥感数字图像"><a href="#遥感数字图像" class="headerlink" title="遥感数字图像"></a>遥感数字图像</h3><p>基于遥感的方式获得的数字图像。遥感(remote sensing) - 获取方式，数字(digital) - 存储方式，图像(image) - 表达。<br>遥感获取图像的方式与电磁波有关，因而遥感数字图像可分为紫外图像、红外图像(Infrared imaging, 800nm+,获得热和温度信息)、可见光图像、多光谱图像(Multispectral imaging)、微波图像（Microwave imaging, 如合成孔径雷达SAR图像）。利用不同时间获得的多景图像可以合成某个区域的完整图像。</p>
 <h3 id="遥感图像与非遥感图像"><a href="#遥感图像与非遥感图像" class="headerlink" title="遥感图像与非遥感图像"></a>遥感图像与非遥感图像</h3><p>遥感图像的特点：<br>1）宏观性：大场景的宏观观测。区别于生物学和医学的微观图像（如细胞图像）。<br>2）科学性：进行客观的科学研究的数据基础。因为观测设备是可量化、追踪和溯源的科学设备。<br>3）观测性：遥感是获取数据的一种手段。<br>4）不确定性：无法如同物理一样精确表达，因为遥感成像过程中会受到很多因素干扰。<br>5）多尺度：在多个比例上的观测。不同的传感器提供不同尺度的数据。</p>
 <h3 id="遥感数字图像与印刷照片的区别"><a href="#遥感数字图像与印刷照片的区别" class="headerlink" title="遥感数字图像与印刷照片的区别"></a>遥感数字图像与印刷照片的区别</h3><table>
 <thead>
@@ -459,17 +459,10 @@
 </tbody>
 </table>
 <h3 id="数字图像处理"><a href="#数字图像处理" class="headerlink" title="数字图像处理"></a>数字图像处理</h3><p>对一个物体的数字施加一系列的操作，以得到所期望结果（仍为图像）的过程。<br>比如，有2个数字图像A和B，令C=A+B，C仍为一个图像。</p>
-<h3 id="数字图像分析"><a href="#数字图像分析" class="headerlink" title="数字图像分析"></a>数字图像分析</h3><p>将图像转化为一种非图像的表示。<br>比如，有数字图像A，认为A中&gt;1的值为水体，采用该判别准则后A图像就会变成一个（0 1）图像，即1是白的（水体），0是黑的（非水体）。这个（0 1）图像拥有物理含义（类别），是一个非数字图像的表示。</p>
+<h3 id="数字图像分析"><a href="#数字图像分析" class="headerlink" title="数字图像分析"></a>数字图像分析</h3><p>将图像转化为一种非图像的表示。<br>比如，有数字图像A，认为A中&gt;1的值为水体，采用该判别准则后A图像就会变成一个（0 1）图像，即1是白的（水体），0是黑的（非水体）。这个（0 1）图像拥有物理含义（即类别），是一个非数字图像的表示。</p>
 <h3 id="遥感数字图像处理"><a href="#遥感数字图像处理" class="headerlink" title="遥感数字图像处理"></a>遥感数字图像处理</h3><p>遥感数字图像处理 = 遥感（数字图像处理+数字图像分析）。<br>以遥感数字图像为对象，使用地学、数学和物理学等学科的理论和方法进行图像的计算机处理，以获取地理信息，为决策支持提供数据服务。<br>遥感数字图像处理是遥感对地观测体系的基本组成部分。<br>对地观测体系：地物 - 成像系统（观测）- 采样和量化（数字化）- 数字存储（存储）- 计算机的显示和记录（图像处理，产生地理信息）</p>
-<h1 id="涉及学科"><a href="#涉及学科" class="headerlink" title="涉及学科"></a>涉及学科</h1><h4 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h4><ul>
-<li>线性代数</li>
-<li>微积分</li>
-<li>信号处理</li>
-</ul>
-<h4 id="物理学"><a href="#物理学" class="headerlink" title="物理学"></a>物理学</h4><ul>
-<li>光学和电磁波理论</li>
-</ul>
-<h4 id="地学"><a href="#地学" class="headerlink" title="地学"></a>地学</h4><h4 id="计算机图形学"><a href="#计算机图形学" class="headerlink" title="计算机图形学"></a>计算机图形学</h4><h4 id="模式识别"><a href="#模式识别" class="headerlink" title="模式识别"></a>模式识别</h4><h4 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h4><h4 id="计算机视觉"><a href="#计算机视觉" class="headerlink" title="计算机视觉"></a>计算机视觉</h4><h4 id="信息科学"><a href="#信息科学" class="headerlink" title="信息科学"></a>信息科学</h4><h4 id="技术学科（应用和操作）"><a href="#技术学科（应用和操作）" class="headerlink" title="技术学科（应用和操作）"></a>技术学科（应用和操作）</h4><h1 id="图像处理的两个观点"><a href="#图像处理的两个观点" class="headerlink" title="图像处理的两个观点"></a>图像处理的两个观点</h1><h3 id="连续的方法"><a href="#连续的方法" class="headerlink" title="连续的方法"></a>连续的方法</h3><p>一些人认为，图像通常源自物理世界，而物理世界是连续的，它们应使用连续数学的方法来处理（此处不考虑量子性）。</p>
+<h1 id="涉及学科"><a href="#涉及学科" class="headerlink" title="涉及学科"></a>涉及学科</h1><p>数学 （线性代数、微积分、信号处理）<br>物理学 （光学和电磁波理论）<br>地学<br>计算机图形学<br>模式识别<br>人工智能<br>计算机视觉<br>信息科学<br>技术学科（应用和操作）</p>
+<h1 id="图像处理的两个观点"><a href="#图像处理的两个观点" class="headerlink" title="图像处理的两个观点"></a>图像处理的两个观点</h1><h3 id="连续的方法"><a href="#连续的方法" class="headerlink" title="连续的方法"></a>连续的方法</h3><p>一些人认为，图像通常源自物理世界，而物理世界是连续的，它们应使用连续数学的方法来处理（此处不考虑量子性）。</p>
 <h3 id="离散的方法"><a href="#离散的方法" class="headerlink" title="离散的方法"></a>离散的方法</h3><p>另一些人认为，数字图像本身是离散的，因为数值本身是离散的，当一幅图像源于且终于数字形式时，应使用离散数学方法进行处理。</p>
 <p>数字图像对是连续的物理世界的离散表达（逼近），因而处理数字图像应结合连续数学和离散数学。</p>
 
@@ -523,7 +516,7 @@
     </div>
         <div class="post-tags">
           
-            <a href="/tags/遥感-数字信号处理/" rel="tag"># 遥感 数字信号处理</a>
+            <a href="/tags/遥感-数字图像/" rel="tag"># 遥感 数字图像</a>
           
         </div>
       
@@ -545,6 +538,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/RSdigital-image-proc2/" rel="prev" title="《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据">
+                《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -633,7 +630,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -655,7 +652,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -717,7 +714,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#基本概念"><span class="nav-number">1.</span> <span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图像"><span class="nav-number">1.0.1.</span> <span class="nav-text">图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#物理图像"><span class="nav-number">1.0.2.</span> <span class="nav-text">物理图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字图像"><span class="nav-number">1.0.3.</span> <span class="nav-text">数字图像</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#像素"><span class="nav-number">1.0.3.1.</span> <span class="nav-text">像素</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片"><span class="nav-number">1.0.4.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感和遥感图像"><span class="nav-number">1.0.5.</span> <span class="nav-text">遥感和遥感图像</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#遥感数字图像"><span class="nav-number">1.0.5.1.</span> <span class="nav-text">遥感数字图像</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感图像与非遥感图像"><span class="nav-number">1.0.6.</span> <span class="nav-text">遥感图像与非遥感图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感数字图像与印刷照片的区别"><span class="nav-number">1.0.7.</span> <span class="nav-text">遥感数字图像与印刷照片的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字图像处理"><span class="nav-number">1.0.8.</span> <span class="nav-text">数字图像处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字图像分析"><span class="nav-number">1.0.9.</span> <span class="nav-text">数字图像分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感数字图像处理"><span class="nav-number">1.0.10.</span> <span class="nav-text">遥感数字图像处理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#涉及学科"><span class="nav-number">2.</span> <span class="nav-text">涉及学科</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#数学"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">数学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#物理学"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">物理学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#地学"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">地学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#计算机图形学"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">计算机图形学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#模式识别"><span class="nav-number">2.0.0.5.</span> <span class="nav-text">模式识别</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#人工智能"><span class="nav-number">2.0.0.6.</span> <span class="nav-text">人工智能</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#计算机视觉"><span class="nav-number">2.0.0.7.</span> <span class="nav-text">计算机视觉</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#信息科学"><span class="nav-number">2.0.0.8.</span> <span class="nav-text">信息科学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#技术学科（应用和操作）"><span class="nav-number">2.0.0.9.</span> <span class="nav-text">技术学科（应用和操作）</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图像处理的两个观点"><span class="nav-number">3.</span> <span class="nav-text">图像处理的两个观点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#连续的方法"><span class="nav-number">3.0.1.</span> <span class="nav-text">连续的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#离散的方法"><span class="nav-number">3.0.2.</span> <span class="nav-text">离散的方法</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#基本概念"><span class="nav-number">1.</span> <span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图像"><span class="nav-number">1.0.1.</span> <span class="nav-text">图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#物理图像"><span class="nav-number">1.0.2.</span> <span class="nav-text">物理图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字图像"><span class="nav-number">1.0.3.</span> <span class="nav-text">数字图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#像素"><span class="nav-number">1.0.4.</span> <span class="nav-text">像素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片"><span class="nav-number">1.0.5.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感和遥感图像"><span class="nav-number">1.0.6.</span> <span class="nav-text">遥感和遥感图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感数字图像"><span class="nav-number">1.0.7.</span> <span class="nav-text">遥感数字图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感图像与非遥感图像"><span class="nav-number">1.0.8.</span> <span class="nav-text">遥感图像与非遥感图像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感数字图像与印刷照片的区别"><span class="nav-number">1.0.9.</span> <span class="nav-text">遥感数字图像与印刷照片的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字图像处理"><span class="nav-number">1.0.10.</span> <span class="nav-text">数字图像处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字图像分析"><span class="nav-number">1.0.11.</span> <span class="nav-text">数字图像分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感数字图像处理"><span class="nav-number">1.0.12.</span> <span class="nav-text">遥感数字图像处理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#涉及学科"><span class="nav-number">2.</span> <span class="nav-text">涉及学科</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图像处理的两个观点"><span class="nav-number">3.</span> <span class="nav-text">图像处理的两个观点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#连续的方法"><span class="nav-number">3.0.1.</span> <span class="nav-text">连续的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#离散的方法"><span class="nav-number">3.0.2.</span> <span class="nav-text">离散的方法</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
