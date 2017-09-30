@@ -79,7 +79,7 @@
 <meta property="og:site_name" content="a lonely fisherman">
 <meta property="og:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 传感器一种检测装置，能将感受到的能量按一定的规则变换为电信号或数字，以满足传输、处理、存储、显示、记录和控制等要求。 遥感器用于遥感的传感器叫做遥感传感器，又叫遥感器。遥感器是远距离检测关于地物（地球表面）和环境（地球表面以上的大气）的电磁波能量的装置。遥感器的输入：遥感器的输出：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-30T08:24:43.000Z">
+<meta property="og:updated_time" content="2017-09-30T09:37:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据">
 <meta name="twitter:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 传感器一种检测装置，能将感受到的能量按一定的规则变换为电信号或数字，以满足传输、处理、存储、显示、记录和控制等要求。 遥感器用于遥感的传感器叫做遥感传感器，又叫遥感器。遥感器是远距离检测关于地物（地球表面）和环境（地球表面以上的大气）的电磁波能量的装置。遥感器的输入：遥感器的输出：">
@@ -452,7 +452,19 @@
 <li>重复周期：相邻两次探测的范围完全覆盖同一个区域，叫做重复。较长。</li>
 <li>重访周期：相邻两次探测的范围不完全重复，有交叉，叫做重访。较短。</li>
 </ul>
-<h1 id="采样和量化"><a href="#采样和量化" class="headerlink" title="采样和量化"></a>采样和量化</h1><p>传感器 - 采样 - 量化 - 数字图像 - 地面站</p>
+<h1 id="采样和量化"><a href="#采样和量化" class="headerlink" title="采样和量化"></a>采样和量化</h1><p>传感器 -&gt; 采样 -&gt; 量化 -&gt; 数字图像 -&gt; 地面站</p>
+<h2 id="采样"><a href="#采样" class="headerlink" title="采样"></a>采样</h2><p>把连续的数据变换成离散数据的操作。</p>
+<p>自然界的地物包含两部分信息：空间和空间上的值。</p>
+<ul>
+<li>空间采样：空间上的连续变成离散，即连续的地物成为离散的像素点。<br>空间采样影响着图像细节的再现程度，采样间隔越大（遥感器的空间分辨力越低），细节损失越多，图像的棋盘化效果越明显。</li>
+<li>光谱采样：空间上的值的连续变成离散，即连续的电磁波谱成为离散的波段。<br>由光谱响应函数把连续的光谱曲线转换为离散的光谱波段。<br><strong>光谱响应函数 (spectral response function, SRF)</strong></li>
+<li>传感器中波段内的波长与光谱强度的关系。</li>
+<li>每个波段具有一个光谱响应函数，如10个波段具有10个光谱响应函数。</li>
+<li>影响着波段对波长范围内光谱特征的代表性。<br>光谱响应函数</li>
+</ul>
+<p>质能方程$E = mc^2$</p>
+<p>$ r $</p>
+<p>$$r<em>i = \cfrac {\sum</em>{\lambdas_i}^{\lambdae<em>i}r(\lambda)\phi(\lambda)}{\sum</em>{\lambda s_i}^{\lambda e_i}\phi(\lambda)}$$<br><strong>波段：</strong><br><strong>波长范围：</strong><br><strong>中心波长：</strong></p>
 <h1 id="遥感数据"><a href="#遥感数据" class="headerlink" title="遥感数据"></a>遥感数据</h1><p>未完待续。。。</p>
 
       
@@ -709,7 +721,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感传感器"><span class="nav-number">1.</span> <span class="nav-text">遥感传感器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感"><span class="nav-number">1.1.</span> <span class="nav-text">遥感</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#传感器"><span class="nav-number">1.2.</span> <span class="nav-text">传感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器"><span class="nav-number">1.3.</span> <span class="nav-text">遥感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分类"><span class="nav-number">1.4.</span> <span class="nav-text">遥感器的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#成像方式"><span class="nav-number">1.5.</span> <span class="nav-text">成像方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分辨力（resolution）"><span class="nav-number">1.6.</span> <span class="nav-text">遥感器的分辨力（resolution）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#辐射分辨力"><span class="nav-number">1.6.1.</span> <span class="nav-text">辐射分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#谱分辨力"><span class="nav-number">1.6.2.</span> <span class="nav-text">谱分辨力</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#不相干图像"><span class="nav-number">1.6.2.1.</span> <span class="nav-text">不相干图像</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#相干图像"><span class="nav-number">1.6.2.2.</span> <span class="nav-text">相干图像</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#空间分辨力"><span class="nav-number">1.6.3.</span> <span class="nav-text">空间分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#时间分辨力"><span class="nav-number">1.6.4.</span> <span class="nav-text">时间分辨力</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#采样和量化"><span class="nav-number">2.</span> <span class="nav-text">采样和量化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感数据"><span class="nav-number">3.</span> <span class="nav-text">遥感数据</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感传感器"><span class="nav-number">1.</span> <span class="nav-text">遥感传感器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感"><span class="nav-number">1.1.</span> <span class="nav-text">遥感</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#传感器"><span class="nav-number">1.2.</span> <span class="nav-text">传感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器"><span class="nav-number">1.3.</span> <span class="nav-text">遥感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分类"><span class="nav-number">1.4.</span> <span class="nav-text">遥感器的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#成像方式"><span class="nav-number">1.5.</span> <span class="nav-text">成像方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分辨力（resolution）"><span class="nav-number">1.6.</span> <span class="nav-text">遥感器的分辨力（resolution）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#辐射分辨力"><span class="nav-number">1.6.1.</span> <span class="nav-text">辐射分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#谱分辨力"><span class="nav-number">1.6.2.</span> <span class="nav-text">谱分辨力</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#不相干图像"><span class="nav-number">1.6.2.1.</span> <span class="nav-text">不相干图像</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#相干图像"><span class="nav-number">1.6.2.2.</span> <span class="nav-text">相干图像</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#空间分辨力"><span class="nav-number">1.6.3.</span> <span class="nav-text">空间分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#时间分辨力"><span class="nav-number">1.6.4.</span> <span class="nav-text">时间分辨力</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#采样和量化"><span class="nav-number">2.</span> <span class="nav-text">采样和量化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#采样"><span class="nav-number">2.1.</span> <span class="nav-text">采样</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感数据"><span class="nav-number">3.</span> <span class="nav-text">遥感数据</span></a></li></ol></div>
             
 
           </div>

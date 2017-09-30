@@ -4,30 +4,8 @@
 
     
   <url>
-    <loc>https://haibaraxx.github.io/RSdigital-image-proc1/</loc>
-    <lastmod>2017-09-30T08:28:28.000Z</lastmod>
-    <data>
-        <display>
-        <title>《遥感数字图像处理》课程笔记（一）：图像与遥感数字图像</title>
-        <pubTime>2017-09-29T20:05:23.000Z</pubTime>
-        
-        <tag>遥感</tag>
-         
-        <tag>数字图像</tag>
-         
-         
-           
-             
-              <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc2/</loc>
-    <lastmod>2017-09-30T08:24:43.000Z</lastmod>
+    <lastmod>2017-09-30T09:37:55.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据</title>
@@ -44,6 +22,28 @@
         <tag>遥感数据</tag>
          
         <tag>分辨率</tag>
+         
+         
+           
+             
+              <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc1/</loc>
+    <lastmod>2017-09-30T08:32:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>《遥感数字图像处理》课程笔记（一）：图像与遥感数字图像</title>
+        <pubTime>2017-09-29T20:05:23.000Z</pubTime>
+        
+        <tag>遥感</tag>
+         
+        <tag>数字图像</tag>
          
          
            
