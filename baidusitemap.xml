@@ -4,30 +4,8 @@
 
     
   <url>
-    <loc>https://haibaraxx.github.io/sublime-tutorial/</loc>
-    <lastmod>2017-09-30T13:34:10.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac下代码编辑器Sublime Text3的常用功能</title>
-        <pubTime>2017-09-30T11:33:37.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>Sublime Text3</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://haibaraxx.github.io/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc2/</loc>
-    <lastmod>2017-09-30T09:42:32.000Z</lastmod>
+    <lastmod>2017-09-30T14:05:30.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据</title>
@@ -49,6 +27,28 @@
            
              
               <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/sublime-tutorial/</loc>
+    <lastmod>2017-09-30T13:41:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac下代码编辑器Sublime Text 3的常用功能</title>
+        <pubTime>2017-09-30T11:33:37.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>Sublime Text3</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://haibaraxx.github.io/categories/Python/"/>
           
         </display>
     </data>
