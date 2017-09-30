@@ -71,18 +71,18 @@
 
 
 
-<meta name="description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 传感器一种检测装置，能将感受到的能量按一定的规则变换为电信号或数字，以满足传输、处理、存储、显示、记录和控制等要求。 遥感器用于遥感的传感器叫做遥感传感器，又叫遥感器。遥感器是远距离检测关于地物（地球表面）和环境（地球表面以上的大气）的电磁波能量的装置。遥感器的输入：遥感器的输出：">
+<meta name="description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 遥感的过程连续的地物电磁波谱，被遥感器采样（空间采样变成图像，光谱采样变成波段）和量化后成为遥感数字图像（其像素值是一个量化级（整数）），遥感数字图像加上相关的说明（即元数据）构成了遥感数据。遥感数据有不同的级别和不同的存储格式，按需选择。遥感数字图像是连续地物的能量的离散表达，像">
 <meta name="keywords" content="遥感,遥感器,采样,量化,遥感数据,分辨率">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据">
 <meta property="og:url" content="https://haibaraxx.github.io/RSdigital-image-proc2/index.html">
 <meta property="og:site_name" content="a lonely fisherman">
-<meta property="og:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 传感器一种检测装置，能将感受到的能量按一定的规则变换为电信号或数字，以满足传输、处理、存储、显示、记录和控制等要求。 遥感器用于遥感的传感器叫做遥感传感器，又叫遥感器。遥感器是远距离检测关于地物（地球表面）和环境（地球表面以上的大气）的电磁波能量的装置。遥感器的输入：遥感器的输出：">
+<meta property="og:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 遥感的过程连续的地物电磁波谱，被遥感器采样（空间采样变成图像，光谱采样变成波段）和量化后成为遥感数字图像（其像素值是一个量化级（整数）），遥感数字图像加上相关的说明（即元数据）构成了遥感数据。遥感数据有不同的级别和不同的存储格式，按需选择。遥感数字图像是连续地物的能量的离散表达，像">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-30T14:05:30.000Z">
+<meta property="og:updated_time" content="2017-09-30T19:19:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据">
-<meta name="twitter:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 传感器一种检测装置，能将感受到的能量按一定的规则变换为电信号或数字，以满足传输、处理、存储、显示、记录和控制等要求。 遥感器用于遥感的传感器叫做遥感传感器，又叫遥感器。遥感器是远距离检测关于地物（地球表面）和环境（地球表面以上的大气）的电磁波能量的装置。遥感器的输入：遥感器的输出：">
+<meta name="twitter:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。 遥感传感器遥感远距离、非接触的目标探测技术和方法。 遥感的过程连续的地物电磁波谱，被遥感器采样（空间采样变成图像，光谱采样变成波段）和量化后成为遥感数字图像（其像素值是一个量化级（整数）），遥感数字图像加上相关的说明（即元数据）构成了遥感数据。遥感数据有不同的级别和不同的存储格式，按需选择。遥感数字图像是连续地物的能量的离散表达，像">
 
 
 
@@ -395,6 +395,12 @@
       
         <p>声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春、张卡。</p>
 <h1 id="遥感传感器"><a href="#遥感传感器" class="headerlink" title="遥感传感器"></a>遥感传感器</h1><h2 id="遥感"><a href="#遥感" class="headerlink" title="遥感"></a>遥感</h2><p>远距离、非接触的目标探测技术和方法。</p>
+<h3 id="遥感的过程"><a href="#遥感的过程" class="headerlink" title="遥感的过程"></a>遥感的过程</h3><p>连续的地物电磁波谱，被遥感器采样（空间采样变成图像，光谱采样变成波段）和量化后成为遥感数字图像（其像素值是一个量化级（整数）），遥感数字图像加上相关的说明（即元数据）构成了遥感数据。遥感数据有不同的级别和不同的存储格式，按需选择。<br>遥感数字图像是连续地物的能量的离散表达，像素值是地物能量的间接描述。</p>
+<h2 id="遥感需要回答的问题"><a href="#遥感需要回答的问题" class="headerlink" title="遥感需要回答的问题"></a>遥感需要回答的问题</h2><ul>
+<li>有什么</li>
+<li>是什么（定性）</li>
+<li>有多少（定量）</li>
+</ul>
 <h2 id="传感器"><a href="#传感器" class="headerlink" title="传感器"></a>传感器</h2><p>一种检测装置，能将感受到的能量按一定的规则变换为电信号或数字，以满足传输、处理、存储、显示、记录和控制等要求。</p>
 <h2 id="遥感器"><a href="#遥感器" class="headerlink" title="遥感器"></a>遥感器</h2><p>用于遥感的传感器叫做遥感传感器，又叫遥感器。遥感器是远距离检测关于地物（地球表面）和环境（地球表面以上的大气）的电磁波能量的装置。<br>遥感器的输入：<br>遥感器的输出：</p>
 <h2 id="遥感器的分类"><a href="#遥感器的分类" class="headerlink" title="遥感器的分类"></a>遥感器的分类</h2><ul>
@@ -460,9 +466,73 @@
 <li>光谱采样：空间上的值的连续变成离散，即连续的电磁波谱成为离散的波段。<br>由光谱响应函数把连续的光谱曲线转换为离散的光谱波段。<br><strong>光谱响应函数 (spectral response function, SRF)</strong></li>
 <li>传感器中波段内的波长与光谱强度的关系。</li>
 <li>每个波段具有一个光谱响应函数，如10个波段具有10个光谱响应函数。</li>
-<li>影响着波段对波长范围内光谱特征的代表性。<br>光谱响应函数<br>$$r<em>i = \cfrac {\sum</em>{\lambdas_i}^{\lambdae<em>i}r(\lambda)\phi(\lambda)}{\sum</em>{\lambda s_i}^{\lambda e_i}\phi(\lambda)}$$<br><strong>波段：</strong><br><strong>波长范围：</strong><br><strong>中心波长：</strong></li>
+<li>影响着波段对波长范围内光谱特征的代表性。<br><strong>波段：</strong><br><strong>波长范围：</strong><br><strong>中心波长：</strong></li>
 </ul>
-<h1 id="遥感数据"><a href="#遥感数据" class="headerlink" title="遥感数据"></a>遥感数据</h1><p>未完待续。。。</p>
+<h2 id="量化"><a href="#量化" class="headerlink" title="量化"></a>量化</h2><p>将<strong>像素灰度值</strong>转换成<strong>整数灰度级</strong>的过程。因此，遥感图像的值是经过量化后的<strong>整数</strong>。<br>量化后，像素值是辐射值所在的编码区间的级数（常称为灰度级或数字DN）。量化级数与遥感器的辐射分辨力密切相关。</p>
+<h3 id="量化计算"><a href="#量化计算" class="headerlink" title="量化计算"></a>量化计算</h3><table>
+<thead>
+<tr>
+<th>原始x</th>
+<th>量化后y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>150</td>
+<td>3</td>
+</tr>
+<tr>
+<td>120</td>
+<td>2</td>
+</tr>
+<tr>
+<td>100</td>
+<td>2</td>
+</tr>
+<tr>
+<td>80</td>
+<td>1</td>
+</tr>
+<tr>
+<td>20</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>假设，x为地物波谱，y为量化后的值，计算y的步骤如下：</p>
+<ul>
+<li>原始数据[0,1]化: x1 = (x - xmin)/(xmax-xmin)</li>
+<li>转换为新的级别: y = ymin + (ymax - ymin)*x1 (0 &lt;= x1 &lt;= 1)</li>
+<li>取整: y = cint(y)<h2 id="量化级数与量化位数"><a href="#量化级数与量化位数" class="headerlink" title="量化级数与量化位数"></a>量化级数与量化位数</h2>量化影响图像细节的可分辨程度，量化位数越高，量化级数就越大，细节的可分辨程度越高，量化后的图像越接近于“真实”，但图像占用的存储空间也越大。若保持图像大小不变，降低量化位数，会减少灰度级，导致假的图像轮廓。<br>|    量化位数    | 量化级数 |<br>| ———- | — |<br>| 2|  2^2 = 4 |<br>| 4 |  2^4 = 16 |<br>| 8 |  2^8 = 256|<br>| 10 |  2^10 = 1024 |<br>| 12 |  2^12 = 4096 |</li>
+</ul>
+<h2 id="遥感器及其平台"><a href="#遥感器及其平台" class="headerlink" title="遥感器及其平台"></a>遥感器及其平台</h2><ul>
+<li>遥感器决定了像素大小、像素值、像素值的高低 （空间分辨力）</li>
+<li>遥感器平台的轨道决定了图像获得的时间 （时间分辨力）</li>
+</ul>
+<h1 id="遥感数据"><a href="#遥感数据" class="headerlink" title="遥感数据"></a>遥感数据</h1><p>遥感数据包括但不限于遥感数字图像。遥感数据 = 遥感数字图像 + 元数据 + 说明信息</p>
+<h2 id="数据级别"><a href="#数据级别" class="headerlink" title="数据级别"></a>数据级别</h2><p>包含0、1、2和3级产品。之所以称之为“产品”，是因为遥感数据是经过质量控制的，可以作为科学观测数据。</p>
+<pre><code>- Level 0 产品：未经过任何校正的原始图像数据。
+- Level 1 产品：经过了初步辐射校正的图像数据。
+- Level 2 产品：经过了系统级的几何校正。
+- Level 3 产品：经过了几何精校正。
+</code></pre><h2 id="元数据"><a href="#元数据" class="headerlink" title="元数据"></a>元数据</h2><p>对遥感数字图像数据的参数说明数据，包含：</p>
+<pre><code>- 传感器类型
+- 数据级别
+- 文件头大小
+- 数据类型
+- 行数、列数、波段数
+</code></pre><p>元数据与图像数据同时分发，或者嵌入到图像文件中，或者是单独的文件。</p>
+<h2 id="数据格式"><a href="#数据格式" class="headerlink" title="数据格式"></a>数据格式</h2><pre><code>- 通用格式：BSQ, BIL, BIP
+- 专用格式：与遥感器相关的格式(如dat, FST), HDF, GeoTIFF 
+</code></pre><h3 id="BSQ-band-sequential-格式"><a href="#BSQ-band-sequential-格式" class="headerlink" title="BSQ (band sequential) 格式"></a>BSQ (band sequential) 格式</h3><p>按波段顺序记录。</p>
+<h3 id="BIL-band-interleaved-by-line-格式"><a href="#BIL-band-interleaved-by-line-格式" class="headerlink" title="BIL (band interleaved by line) 格式"></a>BIL (band interleaved by line) 格式</h3><p>波段顺序交叉排列。</p>
+<h3 id="BIP-band-interleaved-by-Pixel-格式"><a href="#BIP-band-interleaved-by-Pixel-格式" class="headerlink" title="BIP (band interleaved by Pixel) 格式"></a>BIP (band interleaved by Pixel) 格式</h3><p>按像素顺序排列。</p>
+<h3 id="HDF格式"><a href="#HDF格式" class="headerlink" title="HDF格式"></a>HDF格式</h3><p>HDF（层次数据格式）是美国伊利诺大学的国家超级计算中心（NCSA）于1987年研制开发的一种软件和函数库。<br>优势：</p>
+<pre><code>- 可移植性：独立于操作平台
+- 超文本
+- 自我描述性
+- 可扩展性 
+</code></pre><h3 id="GeoTIFF格式"><a href="#GeoTIFF格式" class="headerlink" title="GeoTIFF格式"></a>GeoTIFF格式</h3><p>利用TIFF的可扩展性，在其基础上加入了一系列<strong>地理信息</strong>的标签（tag），以描述卫星成像系统、航空摄影、地图信息和DEM等。扩展名为.tif。<br>GeoTIFF格式描述地理信息条理清晰、结构严谨，且易于与其他遥感影像格式转换，应用广泛。<br>注：几何校正后的GeoTIFF数据是有密级的！</p>
 
       
     </div>
@@ -722,7 +792,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感传感器"><span class="nav-number">1.</span> <span class="nav-text">遥感传感器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感"><span class="nav-number">1.1.</span> <span class="nav-text">遥感</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#传感器"><span class="nav-number">1.2.</span> <span class="nav-text">传感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器"><span class="nav-number">1.3.</span> <span class="nav-text">遥感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分类"><span class="nav-number">1.4.</span> <span class="nav-text">遥感器的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#成像方式"><span class="nav-number">1.5.</span> <span class="nav-text">成像方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分辨力（resolution）"><span class="nav-number">1.6.</span> <span class="nav-text">遥感器的分辨力（resolution）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#辐射分辨力"><span class="nav-number">1.6.1.</span> <span class="nav-text">辐射分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#谱分辨力"><span class="nav-number">1.6.2.</span> <span class="nav-text">谱分辨力</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#不相干图像"><span class="nav-number">1.6.2.1.</span> <span class="nav-text">不相干图像</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#相干图像"><span class="nav-number">1.6.2.2.</span> <span class="nav-text">相干图像</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#空间分辨力"><span class="nav-number">1.6.3.</span> <span class="nav-text">空间分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#时间分辨力"><span class="nav-number">1.6.4.</span> <span class="nav-text">时间分辨力</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#采样和量化"><span class="nav-number">2.</span> <span class="nav-text">采样和量化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#采样"><span class="nav-number">2.1.</span> <span class="nav-text">采样</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感数据"><span class="nav-number">3.</span> <span class="nav-text">遥感数据</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感传感器"><span class="nav-number">1.</span> <span class="nav-text">遥感传感器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感"><span class="nav-number">1.1.</span> <span class="nav-text">遥感</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#遥感的过程"><span class="nav-number">1.1.1.</span> <span class="nav-text">遥感的过程</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感需要回答的问题"><span class="nav-number">1.2.</span> <span class="nav-text">遥感需要回答的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#传感器"><span class="nav-number">1.3.</span> <span class="nav-text">传感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器"><span class="nav-number">1.4.</span> <span class="nav-text">遥感器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分类"><span class="nav-number">1.5.</span> <span class="nav-text">遥感器的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#成像方式"><span class="nav-number">1.6.</span> <span class="nav-text">成像方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器的分辨力（resolution）"><span class="nav-number">1.7.</span> <span class="nav-text">遥感器的分辨力（resolution）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#辐射分辨力"><span class="nav-number">1.7.1.</span> <span class="nav-text">辐射分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#谱分辨力"><span class="nav-number">1.7.2.</span> <span class="nav-text">谱分辨力</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#不相干图像"><span class="nav-number">1.7.2.1.</span> <span class="nav-text">不相干图像</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#相干图像"><span class="nav-number">1.7.2.2.</span> <span class="nav-text">相干图像</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#空间分辨力"><span class="nav-number">1.7.3.</span> <span class="nav-text">空间分辨力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#时间分辨力"><span class="nav-number">1.7.4.</span> <span class="nav-text">时间分辨力</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#采样和量化"><span class="nav-number">2.</span> <span class="nav-text">采样和量化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#采样"><span class="nav-number">2.1.</span> <span class="nav-text">采样</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#量化"><span class="nav-number">2.2.</span> <span class="nav-text">量化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#量化计算"><span class="nav-number">2.2.1.</span> <span class="nav-text">量化计算</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#量化级数与量化位数"><span class="nav-number">2.3.</span> <span class="nav-text">量化级数与量化位数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遥感器及其平台"><span class="nav-number">2.4.</span> <span class="nav-text">遥感器及其平台</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感数据"><span class="nav-number">3.</span> <span class="nav-text">遥感数据</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#数据级别"><span class="nav-number">3.1.</span> <span class="nav-text">数据级别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#元数据"><span class="nav-number">3.2.</span> <span class="nav-text">元数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据格式"><span class="nav-number">3.3.</span> <span class="nav-text">数据格式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#BSQ-band-sequential-格式"><span class="nav-number">3.3.1.</span> <span class="nav-text">BSQ (band sequential) 格式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#BIL-band-interleaved-by-line-格式"><span class="nav-number">3.3.2.</span> <span class="nav-text">BIL (band interleaved by line) 格式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#BIP-band-interleaved-by-Pixel-格式"><span class="nav-number">3.3.3.</span> <span class="nav-text">BIP (band interleaved by Pixel) 格式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HDF格式"><span class="nav-number">3.3.4.</span> <span class="nav-text">HDF格式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GeoTIFF格式"><span class="nav-number">3.3.5.</span> <span class="nav-text">GeoTIFF格式</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
