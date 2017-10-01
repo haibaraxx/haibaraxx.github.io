@@ -4,18 +4,40 @@
 
     
   <url>
-    <loc>https://haibaraxx.github.io/RSdigital-image-proc3/</loc>
-    <lastmod>2017-09-30T21:30:40.000Z</lastmod>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc4/</loc>
+    <lastmod>2017-10-01T15:03:17.000Z</lastmod>
     <data>
         <display>
-        <title>《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征</title>
-        <pubTime>2017-09-30T19:36:43.000Z</pubTime>
+        <title>《遥感数字图像处理》课程笔记（四）：图像显示和拉伸</title>
+        <pubTime>2017-10-01T09:39:45.000Z</pubTime>
         
         <tag>遥感</tag>
          
         <tag>遥感图像</tag>
          
-        <tag>像素</tag>
+        <tag>色彩</tag>
+         
+         
+           
+             
+              <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc1/</loc>
+    <lastmod>2017-10-01T09:45:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>《遥感数字图像处理》课程笔记（一）：图像与遥感数字图像</title>
+        <pubTime>2017-09-29T20:05:23.000Z</pubTime>
+        
+        <tag>遥感</tag>
+         
+        <tag>数字图像</tag>
          
          
            
@@ -29,7 +51,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc2/</loc>
-    <lastmod>2017-09-30T19:34:43.000Z</lastmod>
+    <lastmod>2017-10-01T09:45:18.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据</title>
@@ -58,6 +80,30 @@
 
     
   <url>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc3/</loc>
+    <lastmod>2017-10-01T09:44:55.000Z</lastmod>
+    <data>
+        <display>
+        <title>《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征</title>
+        <pubTime>2017-09-30T19:36:43.000Z</pubTime>
+        
+        <tag>遥感</tag>
+         
+        <tag>遥感图像</tag>
+         
+        <tag>像素</tag>
+         
+         
+           
+             
+              <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://haibaraxx.github.io/sublime-tutorial/</loc>
     <lastmod>2017-09-30T13:41:09.000Z</lastmod>
     <data>
@@ -73,28 +119,6 @@
            
              
               <breadCrumb title="Python" url="https://haibaraxx.github.io/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://haibaraxx.github.io/RSdigital-image-proc1/</loc>
-    <lastmod>2017-09-30T08:32:28.000Z</lastmod>
-    <data>
-        <display>
-        <title>《遥感数字图像处理》课程笔记（一）：图像与遥感数字图像</title>
-        <pubTime>2017-09-29T20:05:23.000Z</pubTime>
-        
-        <tag>遥感</tag>
-         
-        <tag>数字图像</tag>
-         
-         
-           
-             
-              <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
           
         </display>
     </data>

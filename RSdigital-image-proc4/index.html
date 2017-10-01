@@ -53,7 +53,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="遥感,遥感图像,色彩," />
 
 
 
@@ -71,17 +71,18 @@
 
 
 
-<meta name="description" content="江雪独钓寒">
-<meta name="keywords" content="Web,HTML">
-<meta property="og:type" content="website">
-<meta property="og:title" content="a lonely fisherman">
-<meta property="og:url" content="https://haibaraxx.github.io/tags/Hexo/index.html">
+<meta name="description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春。 数字图像只有显示后（可视化）才能为人所感知确认，而彩色合成可以突出有用的信息，扩大影响特征间的区别，进而更好地表现图像中的信息。彩色合成后图像的信息没有增减，只是改善了视觉效果，产生更易于处理的图像。整个处理过程具有探索性和交互性。 色彩模型和色彩空间颜色的特征色彩的形成与分布白光透过分光镜被分解成各种光，人的肉眼可以感知的部分是可见光。">
+<meta name="keywords" content="遥感,遥感图像,色彩">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《遥感数字图像处理》课程笔记（四）：图像显示和拉伸">
+<meta property="og:url" content="https://haibaraxx.github.io/RSdigital-image-proc4/index.html">
 <meta property="og:site_name" content="a lonely fisherman">
-<meta property="og:description" content="江雪独钓寒">
+<meta property="og:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春。 数字图像只有显示后（可视化）才能为人所感知确认，而彩色合成可以突出有用的信息，扩大影响特征间的区别，进而更好地表现图像中的信息。彩色合成后图像的信息没有增减，只是改善了视觉效果，产生更易于处理的图像。整个处理过程具有探索性和交互性。 色彩模型和色彩空间颜色的特征色彩的形成与分布白光透过分光镜被分解成各种光，人的肉眼可以感知的部分是可见光。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-10-01T15:03:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="a lonely fisherman">
-<meta name="twitter:description" content="江雪独钓寒">
+<meta name="twitter:title" content="《遥感数字图像处理》课程笔记（四）：图像显示和拉伸">
+<meta name="twitter:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春。 数字图像只有显示后（可视化）才能为人所感知确认，而彩色合成可以突出有用的信息，扩大影响特征间的区别，进而更好地表现图像中的信息。彩色合成后图像的信息没有增减，只是改善了视觉效果，产生更易于处理的图像。整个处理过程具有探索性和交互性。 色彩模型和色彩空间颜色的特征色彩的形成与分布白光透过分光镜被分解成各种光，人的肉眼可以感知的部分是可见光。">
 
 
 
@@ -111,13 +112,13 @@
 
 
 
-  <link rel="canonical" href="https://haibaraxx.github.io/tags/Hexo/"/>
+  <link rel="canonical" href="https://haibaraxx.github.io/RSdigital-image-proc4/"/>
 
 
 
 
 
-  <title>标签: Hexo | a lonely fisherman</title>
+  <title>《遥感数字图像处理》课程笔记（四）：图像显示和拉伸 | a lonely fisherman</title>
   
 
 
@@ -136,7 +137,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -284,54 +285,279 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Hexo<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://haibaraxx.github.io/RSdigital-image-proc4/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="蓑笠翁">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="a lonely fisherman">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/hexo_addcopyright/" itemprop="url">
-              
-                <span itemprop="name">NexT主题下为Hexo博文添加版权信息</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">《遥感数字图像处理》课程笔记（四）：图像显示和拉伸</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-28T20:02:14+02:00"
-              content="2017-09-28" >
-          09-28
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-01T11:39:45+02:00">
+                2017-10-01
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Geoscience/" itemprop="url" rel="index">
+                    <span itemprop="name">Geoscience</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i> 浏览
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <p>声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春。</p>
+<p>数字图像只有显示后（可视化）才能为人所感知确认，而彩色合成可以突出有用的信息，扩大影响特征间的区别，进而更好地表现图像中的信息。彩色合成后图像的信息没有增减，只是改善了视觉效果，产生更易于处理的图像。整个处理过程具有探索性和交互性。</p>
+<h1 id="色彩模型和色彩空间"><a href="#色彩模型和色彩空间" class="headerlink" title="色彩模型和色彩空间"></a>色彩模型和色彩空间</h1><h2 id="颜色的特征"><a href="#颜色的特征" class="headerlink" title="颜色的特征"></a>颜色的特征</h2><h3 id="色彩的形成与分布"><a href="#色彩的形成与分布" class="headerlink" title="色彩的形成与分布"></a>色彩的形成与分布</h3><p>白光透过分光镜被分解成各种光，人的肉眼可以感知的部分是可见光。一般认为，可见光的波长范围：400-700 nm。<br>人对色彩的感知与人眼的构成有关。普通人的视网膜有5百万个锥细胞和1亿个棒细胞，锥细胞——感知色彩，棒细胞——感知明暗。女性的锥细胞更多，而男性的棒细胞更多，因而不同性别的人对色彩的感知不同。<br>肉眼的光谱响应函数<br>当光谱采样限制到人类视觉系统敏感的红、绿、蓝光波段时，对这三个光谱带进行采样，可以得到一幅彩色图像。</p>
+<p>查阅资料：<br>不同的文献中，可见光的波长范围是多少？<br>遥感中，全色波段的波长范围是多少？ </p>
+<h3 id="非彩色"><a href="#非彩色" class="headerlink" title="非彩色"></a>非彩色</h3><p>色阶：黑、白以及从黑过渡到白的系列灰色。<br>色阶图<br>显示器越好，看到的黑白过渡越多。</p>
+<h3 id="彩色"><a href="#彩色" class="headerlink" title="彩色"></a>彩色</h3><p>除黑白系列以外的各种颜色。</p>
+<ul>
+<li>显色系统：研究色彩学，关注的是颜色再现，涉及到反射光，如绘画、印刷等。三原色是红、黄、蓝，主要是颜料。</li>
+<li>混色系统：研究色度学，关注的是颜色的混合。混色系统是在显色系统的基础上发展而来的，基本的标准是CIE色度学。三原色是红、绿、蓝。<strong>遥感图像的合成显示属于混色过程。</strong></li>
+</ul>
+<h3 id="混色系统：光"><a href="#混色系统：光" class="headerlink" title="混色系统：光"></a>混色系统：光</h3><p>混色系统中，光是重要的色彩来源。</p>
+<ul>
+<li>色调（色相）(hue, H)：涉及到光的波长和人眼对光的感觉，反映颜色的基本特征。</li>
+<li>亮度（明度）(brightness, B)：反映光的强和弱。</li>
+<li>饱和度（彩度）(saturability, S)：反映颜色渗入白光的程度，颜色深浅的程度。颜色渗入白光越多，饱和度越差。</li>
+</ul>
+<p>红 + 白光 -&gt; 粉红  -&gt; 饱和度下降<br>红 + 另一种颜色的光 -&gt; 色调发生变化</p>
+<p>256色板转换为HSV（V——色值，类似于B）：</p>
+<ul>
+<li>灰阶没有色彩，色调为0，饱和度为0。</li>
+<li>纯色饱和度最高，为1。</li>
+<li>不同的灰阶具有不同的亮度B或色值V。</li>
+</ul>
+<h2 id="色彩模型-（color-model）"><a href="#色彩模型-（color-model）" class="headerlink" title="色彩模型 （color model）"></a>色彩模型 （color model）</h2><p>将数字分配给色彩的系统，目的是按照某种标准利用<strong>原色</strong>来表示颜色。混色系统中，原色是红、绿、蓝。<br><strong>- RGB（红绿蓝）模型：</strong>色彩的产生——色彩由RGB三个原色按照比例混合而成。<br><strong>三基色原理：</strong>自然界中常见的各种颜色的光，都是由RGB三种颜色光按照不同比例相配而成，同样绝大多数颜色也可以分解成RGB三种色光。这是色度学中最基本的原理。<br><strong>立方体模型</strong><br>黑（0，0，0）<br>白（1，1，1）<br>红（1，0，0）<br>绿（0，1，0）<br>蓝（0，0，1）<br>红 + 绿 = 黄；<br>红 + 蓝 = 品红；<br>绿 + 蓝 = 青；<br>红 + 绿 + 蓝 = 白；</p>
+<p><strong>- HSI（色调饱和度强度）模型：</strong>视觉感知。</p>
+<ul>
+<li>H 色调：描述纯色的颜色属性，由波长决定。</li>
+<li>S 饱和度：度量白光冲淡纯色的程度。</li>
+<li>I 强度：度量黑到白之间的差异。</li>
+</ul>
+<h2 id="色彩空间（color-space）"><a href="#色彩空间（color-space）" class="headerlink" title="色彩空间（color space）"></a>色彩空间（color space）</h2><p>又称色域，描述面向特定目标的颜色范围。</p>
+<p>色彩空间是色彩模型的实例，其中，颜色用一个三维坐标系统（RGB）及这个系统中的子空间来表示，每个颜色在系统中由一个单点表示。一个色彩模型可以有多个色彩空间。</p>
+<p>不同设备色彩空间有差异（色域是很多设备的参数之一），打印、扫描设备 &lt; 显示器 &lt; 自然界真实的色彩空间。</p>
+<h3 id="Adobe-RGB和sRGB-small-RGB"><a href="#Adobe-RGB和sRGB-small-RGB" class="headerlink" title="Adobe RGB和sRGB(small RGB)"></a>Adobe RGB和sRGB(small RGB)</h3><ul>
+<li>开发时间和厂家不同</li>
+<li>包含的色彩范围不同</li>
+<li>色彩空间：Adobe RGB （优先选用） &gt; sRGB</li>
+</ul>
+<h2 id="色彩管理"><a href="#色彩管理" class="headerlink" title="色彩管理"></a>色彩管理</h2><p>数字图像将在关联的设备中得到应用，不同的数码影像处理设备都有自己的色彩空间。为比较不同设备的色彩空间，需进行色彩管理。色彩管理是一个系统性的管理工作，完成后会产生一个icc文件。</p>
+<h1 id="彩色合成"><a href="#彩色合成" class="headerlink" title="彩色合成"></a>彩色合成</h1><h2 id="图像的显示"><a href="#图像的显示" class="headerlink" title="图像的显示"></a>图像的显示</h2><p>将数字图像从一组离散数据还原为一幅可见图像的过程。<br>一般地，显示器按照8位量化来合成颜色，即显示器的RGB通道的值分别是8位，因此各通道（R通道、G通道、B通道）的量化级数为2^8=256。<br>显示过程：图像处理器从硬盘里读取数据文件，并将其存储到图像处理器缓冲区中。图像本身的数值与彩色查找表（CLUT）比对后转换为彩色查找表，并按照RGB的方式进行合成，进而通过显示器显示。</p>
+<h2 id="彩色合成-1"><a href="#彩色合成-1" class="headerlink" title="彩色合成"></a>彩色合成</h2><p>像素值 -&gt; 图像的彩色合成过程 -&gt; 显示值<br>遥感数字图像中有多个波段，选择1-3个波段并映射到RGB上，合成，进而显示。</p>
+<h3 id="灰阶显示（全色显示）"><a href="#灰阶显示（全色显示）" class="headerlink" title="灰阶显示（全色显示）"></a>灰阶显示（全色显示）</h3><p>RGB三个通道对应于遥感数字图像中相同的波段，生成灰色图像（灰阶）。每个波段都是一个灰阶。</p>
+<h3 id="彩色显示"><a href="#彩色显示" class="headerlink" title="彩色显示"></a>彩色显示</h3><p>RGB三个通道的输入波段至少两个是不同的。</p>
+<ul>
+<li><p>伪彩色合成：将一个灰度图像转换为彩色图像的过程。</p>
+<ul>
+<li>主要通过密度分割来实现。</li>
+<li>选择波段，分割为不同级别（如分为10级），每个级别赋予不同的RGB颜色，</li>
+</ul>
+</li>
+<li><p>真彩色合成</p>
+</li>
+<li>假彩色合成</li>
+<li>模拟真彩色合成</li>
+</ul>
+<h1 id="图像拉伸"><a href="#图像拉伸" class="headerlink" title="图像拉伸"></a>图像拉伸</h1>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>大爷，赏个铜板呗~</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="蓑笠翁 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer"> 
+      
+    <div>    
+      
+      
+    <ul class="post-copyright">
+      <li class="post-copyright-license">
+        除特殊声明外，本站博文均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议，转载请注明出处！
+      </li>
+    </ul>
+    
+    </div>
+        <div class="post-tags">
+          
+            <a href="/tags/遥感/" rel="tag"># 遥感</a>
+          
+            <a href="/tags/遥感图像/" rel="tag"># 遥感图像</a>
+          
+            <a href="/tags/色彩/" rel="tag"># 色彩</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/RSdigital-image-proc3/" rel="next" title="《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征">
+                <i class="fa fa-chevron-left"></i> 《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
-  
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -339,6 +565,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -359,8 +589,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <p class="site-author-name" itemprop="name">蓑笠翁</p>
@@ -448,6 +687,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#色彩模型和色彩空间"><span class="nav-number">1.</span> <span class="nav-text">色彩模型和色彩空间</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#颜色的特征"><span class="nav-number">1.1.</span> <span class="nav-text">颜色的特征</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#色彩的形成与分布"><span class="nav-number">1.1.1.</span> <span class="nav-text">色彩的形成与分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#非彩色"><span class="nav-number">1.1.2.</span> <span class="nav-text">非彩色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#彩色"><span class="nav-number">1.1.3.</span> <span class="nav-text">彩色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#混色系统：光"><span class="nav-number">1.1.4.</span> <span class="nav-text">混色系统：光</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#色彩模型-（color-model）"><span class="nav-number">1.2.</span> <span class="nav-text">色彩模型 （color model）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#色彩空间（color-space）"><span class="nav-number">1.3.</span> <span class="nav-text">色彩空间（color space）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Adobe-RGB和sRGB-small-RGB"><span class="nav-number">1.3.1.</span> <span class="nav-text">Adobe RGB和sRGB(small RGB)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#色彩管理"><span class="nav-number">1.4.</span> <span class="nav-text">色彩管理</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#彩色合成"><span class="nav-number">2.</span> <span class="nav-text">彩色合成</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#图像的显示"><span class="nav-number">2.1.</span> <span class="nav-text">图像的显示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#彩色合成-1"><span class="nav-number">2.2.</span> <span class="nav-text">彩色合成</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#灰阶显示（全色显示）"><span class="nav-number">2.2.1.</span> <span class="nav-text">灰阶显示（全色显示）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#彩色显示"><span class="nav-number">2.2.2.</span> <span class="nav-text">彩色显示</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图像拉伸"><span class="nav-number">3.</span> <span class="nav-text">图像拉伸</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
