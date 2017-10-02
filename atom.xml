@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haibaraxx.github.io/"/>
-  <updated>2017-10-01T23:01:50.000Z</updated>
+  <updated>2017-10-02T13:06:59.000Z</updated>
   <id>https://haibaraxx.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://haibaraxx.github.io/test-1/"/>
+    <id>https://haibaraxx.github.io/test-1/</id>
+    <published>2017-10-02T13:06:59.000Z</published>
+    <updated>2017-10-02T13:06:59.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://haibaraxx.github.io/test/"/>
+    <id>https://haibaraxx.github.io/test/</id>
+    <published>2017-10-02T13:06:33.000Z</published>
+    <updated>2017-10-02T13:06:33.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>《遥感数字图像处理》课程笔记（四）：图像显示和拉伸</title>
@@ -198,13 +226,13 @@
       <category term="Python" scheme="https://haibaraxx.github.io/categories/Python/"/>
     
     
+      <category term="Mac" scheme="https://haibaraxx.github.io/tags/Mac/"/>
+    
       <category term="Python" scheme="https://haibaraxx.github.io/tags/Python/"/>
     
       <category term="Jupyter Notebook" scheme="https://haibaraxx.github.io/tags/Jupyter-Notebook/"/>
     
       <category term="iPython" scheme="https://haibaraxx.github.io/tags/iPython/"/>
-    
-      <category term="Mac" scheme="https://haibaraxx.github.io/tags/Mac/"/>
     
   </entry>
   
@@ -229,9 +257,9 @@
       <category term="Linux" scheme="https://haibaraxx.github.io/categories/Linux/"/>
     
     
-      <category term="Mac" scheme="https://haibaraxx.github.io/tags/Mac/"/>
-    
       <category term="Linux" scheme="https://haibaraxx.github.io/tags/Linux/"/>
+    
+      <category term="Mac" scheme="https://haibaraxx.github.io/tags/Mac/"/>
     
       <category term="Geany" scheme="https://haibaraxx.github.io/tags/Geany/"/>
     

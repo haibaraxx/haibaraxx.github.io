@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>https://haibaraxx.github.io/test-1/</loc>
+    <lastmod>2017-10-02T13:06:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2017-10-02T13:06:59.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/test/</loc>
+    <lastmod>2017-10-02T13:06:33.000Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2017-10-02T13:06:33.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc4/</loc>
     <lastmod>2017-10-01T23:01:50.000Z</lastmod>
     <data>
@@ -133,13 +163,13 @@
         <title>Mac下改变Jupyter Notebook默认目录路径</title>
         <pubTime>2017-09-28T20:34:13.000Z</pubTime>
         
+        <tag>Mac</tag>
+         
         <tag>Python</tag>
          
         <tag>Jupyter Notebook</tag>
          
         <tag>iPython</tag>
-         
-        <tag>Mac</tag>
          
          
            
@@ -182,9 +212,9 @@
         <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
         <pubTime>2017-09-28T18:30:16.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Linux</tag>
+         
+        <tag>Mac</tag>
          
         <tag>Geany</tag>
          
