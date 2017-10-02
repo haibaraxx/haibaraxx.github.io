@@ -4,48 +4,44 @@
 
     
   <url>
-    <loc>https://haibaraxx.github.io/test-1/</loc>
-    <lastmod>2017-10-02T13:06:59.000Z</lastmod>
+    <loc>https://haibaraxx.github.io/mmap-colorbar/</loc>
+    <lastmod>2017-10-02T15:52:31.000Z</lastmod>
     <data>
         <display>
-        <title>test</title>
-        <pubTime>2017-10-02T13:06:59.000Z</pubTime>
+        <title>M_Map：将他人的colorbar配色挪为己用</title>
+        <pubTime>2017-10-02T14:41:41.000Z</pubTime>
         
+        <tag>Matlab</tag>
+         
+        <tag>M_Map</tag>
+         
+        <tag>colorbar</tag>
+         
+        <tag>配色</tag>
+         
          
            
+             
+              <breadCrumb title="Matlab" url="https://haibaraxx.github.io/categories/Matlab/"/>
+          
         </display>
     </data>
     </url>
 
     
   <url>
-    <loc>https://haibaraxx.github.io/test/</loc>
-    <lastmod>2017-10-02T13:06:33.000Z</lastmod>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc3/</loc>
+    <lastmod>2017-10-02T14:11:44.000Z</lastmod>
     <data>
         <display>
-        <title>test</title>
-        <pubTime>2017-10-02T13:06:33.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://haibaraxx.github.io/RSdigital-image-proc4/</loc>
-    <lastmod>2017-10-01T23:01:50.000Z</lastmod>
-    <data>
-        <display>
-        <title>《遥感数字图像处理》课程笔记（四）：图像显示和拉伸</title>
-        <pubTime>2017-10-01T09:39:45.000Z</pubTime>
+        <title>《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征</title>
+        <pubTime>2017-09-30T19:36:43.000Z</pubTime>
         
         <tag>遥感</tag>
          
         <tag>遥感图像</tag>
          
-        <tag>色彩</tag>
+        <tag>像素</tag>
          
          
            
@@ -59,7 +55,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc1/</loc>
-    <lastmod>2017-10-01T09:45:31.000Z</lastmod>
+    <lastmod>2017-10-02T14:06:20.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（一）：图像与遥感数字图像</title>
@@ -81,7 +77,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc2/</loc>
-    <lastmod>2017-10-01T09:45:18.000Z</lastmod>
+    <lastmod>2017-10-02T14:05:52.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（二）：遥感传感器和遥感数据</title>
@@ -110,18 +106,18 @@
 
     
   <url>
-    <loc>https://haibaraxx.github.io/RSdigital-image-proc3/</loc>
-    <lastmod>2017-10-01T09:44:55.000Z</lastmod>
+    <loc>https://haibaraxx.github.io/RSdigital-image-proc4/</loc>
+    <lastmod>2017-10-02T13:46:23.000Z</lastmod>
     <data>
         <display>
-        <title>《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征</title>
-        <pubTime>2017-09-30T19:36:43.000Z</pubTime>
+        <title>《遥感数字图像处理》课程笔记（四）：图像显示和拉伸</title>
+        <pubTime>2017-10-01T09:39:45.000Z</pubTime>
         
         <tag>遥感</tag>
          
         <tag>遥感图像</tag>
          
-        <tag>像素</tag>
+        <tag>色彩</tag>
          
          
            

@@ -79,10 +79,12 @@
 <meta property="og:site_name" content="a lonely fisherman">
 <meta property="og:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春。 遥感图像模型根据观测对象，遥感对地观测可分为：  大气遥感 陆地遥感 水色遥感遥感图像模型是为了解释不同观测对象的遥感数字图像中 像素值的物理意义。观测对象不同，遥感图像模型不同，从而图像的校正、处理和信息提取方法不同。  像素值 L(x, y, t, λ, p)某一时刻 t，在不同波长 λ和不同极化（偏振）方向 p上所收集到的位于坐标（">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-01T09:44:55.000Z">
+<meta property="og:image" content="https://haibaraxx.github.io/RSdigital-image-proc3/3by3pixelwindow.png">
+<meta property="og:updated_time" content="2017-10-02T14:11:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《遥感数字图像处理》课程笔记（三）：遥感图像模型和特征">
 <meta name="twitter:description" content="声明：本文参考课程《遥感数字图像处理》，授课教师：韦玉春。 遥感图像模型根据观测对象，遥感对地观测可分为：  大气遥感 陆地遥感 水色遥感遥感图像模型是为了解释不同观测对象的遥感数字图像中 像素值的物理意义。观测对象不同，遥感图像模型不同，从而图像的校正、处理和信息提取方法不同。  像素值 L(x, y, t, λ, p)某一时刻 t，在不同波长 λ和不同极化（偏振）方向 p上所收集到的位于坐标（">
+<meta name="twitter:image" content="https://haibaraxx.github.io/RSdigital-image-proc3/3by3pixelwindow.png">
 
 
 
@@ -456,7 +458,7 @@
 <h3 id="协方差-covariance"><a href="#协方差-covariance" class="headerlink" title="协方差(covariance)"></a>协方差(covariance)</h3><p>变异关系的判断用协方差，给出的信息更明确。<br>计算公式：<br>当两个变量相同时，协方差就变成了方差。</p>
 <h3 id="相关系数"><a href="#相关系数" class="headerlink" title="相关系数"></a>相关系数</h3><p>反映了两个波段图像所包含信息的重叠程度。剔除了两个变量量纲影响、标准化后的特殊协方差，表达两个变量 <strong>单位变化</strong>时的相似程度，值域[-1,1]。线性关系的判断用相关系数更容易。<br>计算公式：<br>当两个变量相同时，相关系数等于1。</p>
 <h1 id="像素空间关系和图像特征"><a href="#像素空间关系和图像特征" class="headerlink" title="像素空间关系和图像特征"></a>像素空间关系和图像特征</h1><h2 id="像素空间关系"><a href="#像素空间关系" class="headerlink" title="像素空间关系"></a>像素空间关系</h2><p>遥感数字图像是矩阵。像素空间关系描述了图像中像素与像素间的空间关系。</p>
-<h3 id="窗口和邻域"><a href="#窗口和邻域" class="headerlink" title="窗口和邻域"></a>窗口和邻域</h3><p>窗口（window）：以任一像素为中心，按上下左右对称所设定的像素范围。如1x1，3x3，5x5的窗口。<br>邻域：中心像素周围的像素，不包含中心像素本身。按照连通或指定的距离定义邻域。</p>
+<h3 id="窗口和邻域"><a href="#窗口和邻域" class="headerlink" title="窗口和邻域"></a>窗口和邻域</h3><p>窗口（window）：以任一像素为中心，按上下左右对称所设定的像素范围。如1x1，3x3，5x5的窗口。<br><img src="/RSdigital-image-proc3/3by3pixelwindow.png" alt="3x3窗口" title="3x3窗口"><br>邻域：中心像素周围的像素，不包含中心像素本身。按照连通或指定的距离定义邻域。</p>
 <ul>
 <li>4邻域：以中心像素为中心作正方形或圆，与中心像素相邻的上、下、左、右4个像素。</li>
 <li>8邻域：以中心像素为中心作正方形或圆，与中心像素相邻的上、下、左、右、左上、左下、右上、右下8个像素。</li>
@@ -660,7 +662,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -671,7 +673,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -682,7 +684,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">20</span>
+                <span class="site-state-item-count">24</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
