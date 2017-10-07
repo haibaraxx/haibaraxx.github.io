@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/RSprinciples-applications1/</loc>
-    <lastmod>2017-10-07T21:19:42.000Z</lastmod>
+    <lastmod>2017-10-07T21:21:06.000Z</lastmod>
     <data>
         <display>
         <title>《遥感原理与应用》课程笔记(一）：遥感的概念与遥感技术系统的组成</title>
@@ -179,13 +179,13 @@
         <title>Mac下改变Jupyter Notebook默认目录路径</title>
         <pubTime>2017-09-28T20:34:13.000Z</pubTime>
         
+        <tag>Mac</tag>
+         
         <tag>Python</tag>
          
         <tag>Jupyter Notebook</tag>
          
         <tag>iPython</tag>
-         
-        <tag>Mac</tag>
          
          
            
@@ -228,9 +228,9 @@
         <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
         <pubTime>2017-09-28T18:30:16.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Linux</tag>
+         
+        <tag>Mac</tag>
          
         <tag>Geany</tag>
          
