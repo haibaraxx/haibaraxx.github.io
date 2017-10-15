@@ -4,8 +4,48 @@
 
     
   <url>
+    <loc>https://haibaraxx.github.io/efficiency/</loc>
+    <lastmod>2017-10-15T07:21:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>定向搜索网站</title>
+        <pubTime>2017-10-15T05:45:10.000Z</pubTime>
+        
+        <tag>搜索</tag>
+         
+         
+           
+             
+              <breadCrumb title="效率提升" url="https://haibaraxx.github.io/categories/%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/RSgeo1/</loc>
+    <lastmod>2017-10-15T05:39:55.000Z</lastmod>
+    <data>
+        <display>
+        <title>《遥感地学分析》课程笔记（一）：遥感信息源</title>
+        <pubTime>2017-10-08T19:55:18.000Z</pubTime>
+        
+        <tag>遥感</tag>
+         
+         
+           
+             
+              <breadCrumb title="Geoscience" url="https://haibaraxx.github.io/categories/Geoscience/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://haibaraxx.github.io/RSdigital-image-proc4/</loc>
-    <lastmod>2017-10-08T19:42:13.000Z</lastmod>
+    <lastmod>2017-10-08T19:51:54.000Z</lastmod>
     <data>
         <display>
         <title>《遥感数字图像处理》课程笔记（四）：图像显示和拉伸</title>
