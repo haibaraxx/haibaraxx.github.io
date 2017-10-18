@@ -79,10 +79,15 @@
 <meta property="og:site_name" content="a lonely fisherman">
 <meta property="og:description" content="声明：本文参考课程《遥感地学分析》，授课教师：韦玉春。 遥感的概念广义：泛指一切无接触的远距离探测，包括对电磁场、力场、机械波（声波、地震）等的探测。广义的遥感包含了对波和谱的探测，它们是曲线而不是图像。狭义：应用探测仪器，不与探测目标接触，从远处把目标的电磁波特性记录下来，通过分析，揭示出物体的特征性质及其变化的综合性探测技术。 遥感是一种以物理手段、数学方法和地学分析为基础的综合性应用技术。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-15T05:39:55.000Z">
+<meta property="og:image" content="https://haibaraxx.github.io/RSgeo1/IFOV.png">
+<meta property="og:image" content="https://haibaraxx.github.io/RSgeo1/Landsat1.png">
+<meta property="og:image" content="https://haibaraxx.github.io/RSgeo1/Landsat2.png">
+<meta property="og:image" content="https://haibaraxx.github.io/RSgeo1/Landsat3.png">
+<meta property="og:updated_time" content="2017-10-18T20:51:19.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《遥感地学分析》课程笔记（一）：遥感信息源">
 <meta name="twitter:description" content="声明：本文参考课程《遥感地学分析》，授课教师：韦玉春。 遥感的概念广义：泛指一切无接触的远距离探测，包括对电磁场、力场、机械波（声波、地震）等的探测。广义的遥感包含了对波和谱的探测，它们是曲线而不是图像。狭义：应用探测仪器，不与探测目标接触，从远处把目标的电磁波特性记录下来，通过分析，揭示出物体的特征性质及其变化的综合性探测技术。 遥感是一种以物理手段、数学方法和地学分析为基础的综合性应用技术。">
+<meta name="twitter:image" content="https://haibaraxx.github.io/RSgeo1/IFOV.png">
 
 
 
@@ -412,18 +417,123 @@
 <li>地面遥感</li>
 <li>航空遥感</li>
 <li>航天遥感：卫星遥感是一种航天遥感</li>
-<li>宇航遥感</li>
+<li>宇航遥感<br><strong>不同的空间观测尺度</strong><br>|    遥感平台    | 高度 | 目的与用途 | 其它<br>| ———- | — | — | —- |<br>| 静止卫星 |  36,000 km | 定点地球观测 | 气象卫星（GMS等）|<br>| 圆轨道卫星（地球观测卫星）|  500 - 1,000 km | 定期地球观测 | Landsat、SPOT MOS等|<br>| 航天飞机 |  240 - 350 km | 不定期地球观测空间实验 | |<br>| 无线探空仪 |  100m - 100 km | 各种调查（气象等） | |<br>| 高高度喷飞机 |  10,000 - 12,000 m | 侦查、大范围调查 | |<br>| 中低高度喷飞机 |  500 - 8,000 m | 各种调查航空摄影测量 | |<br>| 飞艇 |  500 - 3,000 m | 空中侦察、各种调查 | |<br>| 直升机 |  100 - 2,000 m | 各种调查、摄影测量 | |<br>| 无线遥控飞机 |  500 m以下 | 各种调查、摄影测量 | 飞机、直升机 |<br>| 牵引飞机 |  50 -500 m | 各种调查、摄影测量 | 牵引滑翔机 |<br>| 系留气球 |  800 m以下 | 各种调查 | |<br>| 索道 |  10 -40 m | 遗址调查 | |<br>| 吊车 |  5 - 50 m | 近距离摄影测量 | |<br>| 地面测量车 |  0 - 30m | 地面实况调查 | 车载升降台 |</li>
 </ul>
 </li>
 <li>按探测的电磁波段划分<ul>
 <li>可见光遥感：0.38 - 0.76 nm</li>
-<li>红外遥感：0.76 - 1000 um（感受地表发射能量，监测火灾）</li>
-<li>微波遥感：1mm - 1m</li>
-<li>紫外遥感：0.05 - 0.38 um （多用于大气遥感）</li>
+<li>红外遥感：0.76 - 1000 um（感受地表辐射的能量变化，监测火灾、火山喷发等自然灾害）</li>
+<li>微波遥感：1mm - 1m （优点：可穿透云雾）</li>
+<li>紫外遥感：0.05 - 0.38 um （紫外波段多被大气吸收，因而常用于大气遥感）</li>
 <li>多光谱遥感：多光谱摄影机、多光谱扫描仪</li>
 <li>高光谱遥感：成像高光谱和非成像高光谱</li>
 </ul>
 </li>
+<li>按电磁辐射源划分<ul>
+<li>主动遥感：如微波遥感，利用设备向待观测物体发射电磁波，再根据对象反射的电磁波能量进行分析。</li>
+<li>被动遥感：如光学遥感，以太阳光为电磁辐射源，通过地物反射的电磁波能量来分析并获取地物的能量。</li>
+</ul>
+</li>
+<li>按应用领域划分<ul>
+<li>地质遥感、农业遥感、林业遥感、水利遥感、海洋遥感、环境遥感、灾害遥感等。</li>
+</ul>
+</li>
+</ul>
+<h1 id="遥感的特点"><a href="#遥感的特点" class="headerlink" title="遥感的特点"></a>遥感的特点</h1><ul>
+<li>大面积的同步观测<br>遥感平台越高，视角越宽广，可以<strong>同步</strong>探测到的地面范围越大，从而可观测地物的空间分布规律。<br>注：“同步”一词是指分钟级而非秒级，因为遥感成像需要一定的时间。</li>
+<li>时效性<br>遥感技术可以在短时间内对同一地区进行重复探测。</li>
+<li>数据的综合性和可比性<br>遥感技术获取的数据反映地表的综合特性，包括自然、人文等方面。</li>
+<li>经济性<br>可节省大量的人力、物力和财力。</li>
+<li>局限性<br>波谱的有限性、电磁波段的准确性、空间分辨率低等。</li>
+</ul>
+<h1 id="遥感信息源的综合特征"><a href="#遥感信息源的综合特征" class="headerlink" title="遥感信息源的综合特征"></a>遥感信息源的综合特征</h1><ul>
+<li>多源性<ul>
+<li>多平台</li>
+<li>多波段</li>
+<li>多视场：垂直观测、倾斜观测、前向观测、后向观测、立体观测等</li>
+</ul>
+</li>
+<li>空间宏观性<br>遥感影像覆盖范围大、视野广，具有概括性</li>
+<li>遥感信息的时间性<ul>
+<li>瞬时特征</li>
+<li>时效性</li>
+<li>重返周期与多时相</li>
+</ul>
+</li>
+<li>综合性、复合性<ul>
+<li>多种地理要素的综合反映</li>
+<li>多分辨率遥感信息的综合</li>
+</ul>
+</li>
+<li>波谱、辐射量化性<ul>
+<li>地物波谱反射、辐射的定量化记录<br>遥感图像与数码相机拍摄照片的区别在于，遥感影像记录的像素值是可以定量分析，因而可用于科学研究，而普通照片记录的像素值只是一个相对的值，是难以定量的。</li>
+</ul>
+</li>
+<li>遥感信息在地学分析中的模糊性和多解性<br>地面信息是多维的、无限的（时间和空间的），而遥感信息是简化的二维信息。<br><strong>遥感信息的复杂性和不确定性</strong><ul>
+<li>同物异谱、异物同谱</li>
+<li>混合像元：如，将一张遥感影像放大到一定程度后，某个像元可能是尘土与杂草的混合。像元的混合具有不同的空间和级别。</li>
+<li>时相变化</li>
+<li>信息传输中的衰减和增益（辐射失真和几何畸变）</li>
+</ul>
+</li>
+</ul>
+<h1 id="遥感图像的分辨率"><a href="#遥感图像的分辨率" class="headerlink" title="遥感图像的分辨率"></a>遥感图像的分辨率</h1><h2 id="空间分辨率（spatial-resolution）"><a href="#空间分辨率（spatial-resolution）" class="headerlink" title="空间分辨率（spatial resolution）"></a>空间分辨率（spatial resolution）</h2><ul>
+<li>像元大小（pixel size）：针对传感器或图像而言，指图像上能够详细区分的最小单元的尺寸或大小。如，MODIS为1000m，OLCI为300m。</li>
+<li>地面分辨率（ground resolution）：针对地面而言，指可以识别的最小地面距离或最小目标物的大小。</li>
+<li>瞬时视场（IFOV）：指遥感器内单个探测原件的受光角度或观测视野。单位：毫弧度（mrad）。IFOV越小，最小可分辨单元（可分像素）越小，空间分辨率越高。一个瞬时视场内的信息，表示一个像素。<img src="/RSgeo1/IFOV.png" alt="瞬时视场与像素的关系" title="瞬时视场与像素的关系"></li>
+<li>线对数（Photographic Resolution; Line Pairs）：成像平面上1毫米间距内能分辨开的黑白相间的线条对数。单位：线对/毫米（lp/mm）。对摄影系统非常重要。</li>
+<li>概括能力：地面目标是个多维的真实模型，是个无限、连续的信息源（时空尺度上）；遥感数据是对地面信息源<strong>有限化、离散化</strong>的二维平面记录。从地面原型到遥感信息，即把地面信息有限化、离散化过程必然要损失部分信息，这就是一种概括能力。从地面信息到遥感信息，经理一定的处理过程，它损失了一部分信息，必然产生一种概括能力，如同制图综合一样。<strong>遥感信息的概括能力随空间分辨率的降低而增大。</strong></li>
+</ul>
+<h2 id="光谱分辨率"><a href="#光谱分辨率" class="headerlink" title="光谱分辨率"></a>光谱分辨率</h2><p>指遥感器所选用的波段数量的多少、各波段的波长位置、和波长间隔的大小（带宽）。</p>
+<ul>
+<li>光谱分辨率越高，专题研究的针对性越强，对物体的识别精度越高，遥感应用分析的效果越好；</li>
+<li>多波段（多光谱）信息直接地综合解译比较困难；</li>
+<li>多波段（多光谱）的数据分析，可以改善识别和提取信息特征的概率和精度。<br><strong>在遥感中的意义：</strong></li>
+<li>开拓遥感应用领域</li>
+<li>专题研究中波段选择针对性</li>
+<li>图像处理中多波段的应用提高判识效果。</li>
+</ul>
+<h2 id="时间分辨率"><a href="#时间分辨率" class="headerlink" title="时间分辨率"></a>时间分辨率</h2><p>指同一地区遥感影像重复覆盖的频率。</p>
+<ul>
+<li>超短、短周期时间分辨率：一天内，用来探测大气海洋物理现象、火山爆发、植物病虫害、森林火灾、污染源监测等。</li>
+<li>中周期时间分辨率：一年内，用来探测植物的季相节律、再生资源、旱涝、气候学、大气动力学、海洋动力学分析等。</li>
+<li>长周期时间分辨率：以年为单位的变化，环境、资源变化等。<br>区分概念：</li>
+<li>重复周期：相邻两次探测的范围完全覆盖同一个区域，叫做重复。较长。重复观测。</li>
+<li>重访周期：相邻两次探测的范围不完全重复，有交叉，叫做重访。较短。偏离角度（倾斜、正射或垂直）观测。</li>
+</ul>
+<h2 id="辐射分辨率"><a href="#辐射分辨率" class="headerlink" title="辐射分辨率"></a>辐射分辨率</h2><p>指遥感器对光谱信号强弱的敏感程度、区分能力。即探测器的灵敏度（遥感器感测原件在接收光谱信号时能分辨的<strong>最小辐射度差</strong>，或指对两个不同辐射源的辐射量的分辨能力）。一般用灰度的分级数来表示，即<strong>最暗-最亮灰度值（亮度值）间分级的数目——量化级数</strong>。辐射分辨率越高，对地物变化的识别能力越强。</p>
+<p>有效量化的级数一般由<strong>动态范围</strong>和<strong>信噪比S/N</strong>所确定。</p>
+<ul>
+<li>动态范围：传感器可测量的最大信号与最小信号之比。在动态范围内，输入与输出信号几乎呈线性关系。<ul>
+<li>最大信号：在此值以外无论输入的信号多强，响应也无变化的饱和区。</li>
+<li>最小信号：在此值以外为对输入的弱信号无响应的无感应区。</li>
+</ul>
+</li>
+<li>信噪比（S/N）：有效信号（signal）与噪声（noise）之比，即信号功率与噪声功率之比。为方便起见，信噪比常定义为信号均方根电压和噪声均方根电压之比，单位均为分贝（dB）。</li>
+</ul>
+<h1 id="常用遥感系统"><a href="#常用遥感系统" class="headerlink" title="常用遥感系统"></a>常用遥感系统</h1><p>传感器耦合平台（如卫星），就构成了遥感系统。一颗卫星可搭载多个传感器。</p>
+<h2 id="卫星遥感系统"><a href="#卫星遥感系统" class="headerlink" title="卫星遥感系统"></a>卫星遥感系统</h2><p>用于大范围对地观测。</p>
+<ul>
+<li>陆地资源卫星：以探测陆地资源为目的。<ul>
+<li>美国陆地卫星（Landsat）- 数据免费<ul>
+<li>1972年发射第一颗，共发射了8颗，搭载的传感器主要有MSS、TM、ETM、OLI，属于中高度、长寿命的卫星。</li>
+<li>运行特点：近极地、近圆形的轨道；轨道高度为700-900 km，运行周期为99-103 min/圈；轨道与太阳同步。<img src="/RSgeo1/Landsat1.png" alt="Landsat1.png" title="">
+<img src="/RSgeo1/Landsat2.png" alt="Landsat2.png" title="">
+<img src="/RSgeo1/Landsat3.png" alt="Landsat3.png" title=""></li>
+</ul>
+</li>
+<li>法国陆地观测卫星（SPOT）</li>
+<li>欧空局地球资源卫星（ERS）</li>
+<li>俄罗斯钻石卫星（ALMAZ）</li>
+<li>日本地球资源卫星（JERS）</li>
+<li>印度遥感卫星（IRS）</li>
+<li>中-巴地球资源卫星（CBERS）- 数据免费</li>
+</ul>
+</li>
+<li>气象卫星</li>
+<li>海洋卫星</li>
+<li>地球观测系统（EOS）计划</li>
+<li>环境遥感卫星<h2 id="航空遥感系统"><a href="#航空遥感系统" class="headerlink" title="航空遥感系统"></a>航空遥感系统</h2>测图。用来更新地面的基础地理信息。<h2 id="地面遥感数据采集系统"><a href="#地面遥感数据采集系统" class="headerlink" title="地面遥感数据采集系统"></a>地面遥感数据采集系统</h2>做地面遥感实验，用于设计遥感器。</li>
 </ul>
 
       
@@ -674,7 +784,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感的概念"><span class="nav-number">1.</span> <span class="nav-text">遥感的概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感技术系统"><span class="nav-number">2.</span> <span class="nav-text">遥感技术系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感信息源的类型"><span class="nav-number">3.</span> <span class="nav-text">遥感信息源的类型</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感的概念"><span class="nav-number">1.</span> <span class="nav-text">遥感的概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感技术系统"><span class="nav-number">2.</span> <span class="nav-text">遥感技术系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感信息源的类型"><span class="nav-number">3.</span> <span class="nav-text">遥感信息源的类型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感的特点"><span class="nav-number">4.</span> <span class="nav-text">遥感的特点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感信息源的综合特征"><span class="nav-number">5.</span> <span class="nav-text">遥感信息源的综合特征</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遥感图像的分辨率"><span class="nav-number">6.</span> <span class="nav-text">遥感图像的分辨率</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#空间分辨率（spatial-resolution）"><span class="nav-number">6.1.</span> <span class="nav-text">空间分辨率（spatial resolution）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#光谱分辨率"><span class="nav-number">6.2.</span> <span class="nav-text">光谱分辨率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#时间分辨率"><span class="nav-number">6.3.</span> <span class="nav-text">时间分辨率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#辐射分辨率"><span class="nav-number">6.4.</span> <span class="nav-text">辐射分辨率</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用遥感系统"><span class="nav-number">7.</span> <span class="nav-text">常用遥感系统</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#卫星遥感系统"><span class="nav-number">7.1.</span> <span class="nav-text">卫星遥感系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#航空遥感系统"><span class="nav-number">7.2.</span> <span class="nav-text">航空遥感系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#地面遥感数据采集系统"><span class="nav-number">7.3.</span> <span class="nav-text">地面遥感数据采集系统</span></a></li></ol></li></ol></div>
             
 
           </div>
