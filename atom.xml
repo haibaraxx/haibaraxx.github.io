@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haibaraxx.github.io/"/>
-  <updated>2017-10-28T09:33:08.000Z</updated>
+  <updated>2017-10-28T10:49:52.000Z</updated>
   <id>https://haibaraxx.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>统计学基础</title>
+    <link href="https://haibaraxx.github.io/basicstats/"/>
+    <id>https://haibaraxx.github.io/basicstats/</id>
+    <published>2017-10-28T09:54:45.000Z</published>
+    <updated>2017-10-28T10:49:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script><!--  –&gt;<h1 id="统计学的大分类"><a href="#统计学的大分类" class="headerlink" title="统计学的大分类"></a>统计学的大分类</h1><ul><li>描述统计学<br>使用特定的数字或图表来体现数据的集中和离散程度。如：平均值，最值，值的分布。</li><li>推断统计学<br>根据样本数据推断总体数据特征。如：产品质量检查时使用抽检。</li></ul><h1 id="集中趋势"><a href="#集中趋势" class="headerlink" title="集中趋势"></a>集中趋势</h1><p>一组数据向中心值靠拢的程度。  </p><ul><li>均值：描述平均水平。</li><li>中位数：描述中等水平。</li><li>众数：描述一般水平。</li></ul><table><thead><tr><th></th><th>优点</th><th>缺点</th></tr></thead><tbody><tr><td>均值</td><td>充分利用所有数据，适用性强</td><td>容易受到极端值影响</td></tr><tr><td>中位数</td><td>不受极端值影响</td><td>缺乏敏感性</td></tr><tr><td>众数</td><td>当数据具有明显的集中趋势时，代表性好；不受极端值影响</td><td>缺乏唯一性：可能有一个，或多个，或没有</td></tr></tbody></table><h1 id="离散程度的描述"><a href="#离散程度的描述" class="headerlink" title="离散程度的描述"></a>离散程度的描述</h1><p>一组数据，距离中心越远，则越离散。</p><ul><li>极差：最大值-最小值</li><li>方差：$\sigma^{2} = \frac{\sum\limits<em>{i=1}^{n} \left(x</em>{i} - \bar{x}\right)^{2}} {n-1}$</li></ul>-->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;!--  –&amp;gt;
+&lt;h1 id=&quot;统计学的大分类&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>MathJax：为Markdown文件插入LaTex数学公式</title>

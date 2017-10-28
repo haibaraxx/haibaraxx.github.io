@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[统计学基础]]></title>
+    <url>%2Fbasicstats%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[MathJax：为Markdown文件插入LaTex数学公式]]></title>
     <url>%2Feqs%2F</url>
     <content type="text"><![CDATA[Step1：在Markdown文件插入如下代码： 1&lt;script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"&gt;&lt;/script&gt; Step2：用Markdown语法编写数学公式（支持LaTex语法）。如：1$$x=\frac&#123;-b\pm\sqrt&#123;b^2-4ac&#125;&#125;&#123;2a&#125;$$ $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$ 此外，如果想让hexo博文的md文件自动添加Step1中的代码，而不用在每次撰写博文时都拷贝它，只需在模板文件~/scaffolds/post.md中添加这行代码。]]></content>
