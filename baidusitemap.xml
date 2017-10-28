@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/basicstats/</loc>
-    <lastmod>2017-10-28T10:49:52.000Z</lastmod>
+    <lastmod>2017-10-28T11:17:14.000Z</lastmod>
     <data>
         <display>
         <title>统计学基础</title>
@@ -13,6 +13,9 @@
         
          
            
+             
+              <breadCrumb title="statistics" url="https://haibaraxx.github.io/categories/statistics/"/>
+          
         </display>
     </data>
     </url>
@@ -20,7 +23,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/eqs/</loc>
-    <lastmod>2017-10-28T09:33:08.000Z</lastmod>
+    <lastmod>2017-10-28T11:05:30.000Z</lastmod>
     <data>
         <display>
         <title>MathJax：为Markdown文件插入LaTex数学公式</title>

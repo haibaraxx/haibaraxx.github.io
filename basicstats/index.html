@@ -7,7 +7,7 @@
 
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
-  <meta charset="UTF-8"/>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
@@ -71,15 +71,18 @@
 
 
 
+<meta name="description" content="统计学的大分类 描述统计学使用特定的数字或图表来体现数据的集中和离散程度。如：平均值，最值，值的分布。 推断统计学根据样本数据推断总体数据特征。如：产品质量检查时使用抽检。  集中趋势一组数据向中心值靠拢的程度。    均值：描述平均水平。 中位数：描述中等水平。 众数：描述一般水平。      优点 缺点     均值 充分利用所有数据，适用性强 容易受到极端值影响   中位数 不受极端值">
 <meta name="keywords" content="Web,HTML">
 <meta property="og:type" content="article">
 <meta property="og:title" content="统计学基础">
 <meta property="og:url" content="https://haibaraxx.github.io/basicstats/index.html">
 <meta property="og:site_name" content="a lonely fisherman">
+<meta property="og:description" content="统计学的大分类 描述统计学使用特定的数字或图表来体现数据的集中和离散程度。如：平均值，最值，值的分布。 推断统计学根据样本数据推断总体数据特征。如：产品质量检查时使用抽检。  集中趋势一组数据向中心值靠拢的程度。    均值：描述平均水平。 中位数：描述中等水平。 众数：描述一般水平。      优点 缺点     均值 充分利用所有数据，适用性强 容易受到极端值影响   中位数 不受极端值">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-28T10:49:52.000Z">
+<meta property="og:updated_time" content="2017-10-28T11:17:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="统计学基础">
+<meta name="twitter:description" content="统计学的大分类 描述统计学使用特定的数字或图表来体现数据的集中和离散程度。如：平均值，最值，值的分布。 推断统计学根据样本数据推断总体数据特征。如：产品质量检查时使用抽检。  集中趋势一组数据向中心值靠拢的程度。    均值：描述平均水平。 中位数：描述中等水平。 众数：描述一般水平。      优点 缺点     均值 充分利用所有数据，适用性强 容易受到极端值影响   中位数 不受极端值">
 
 
 
@@ -115,7 +118,7 @@
 
 
 
-  <title>统计学基础 | a lonely fisherman</title>
+  <title>统计学基础 | a lonely fisherman</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -134,7 +137,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -336,6 +339,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/statistics/" itemprop="url" rel="index">
+                    <span itemprop="name">statistics</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -368,9 +393,9 @@
       
 
       
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
-<!--  –&gt;
 <h1 id="统计学的大分类"><a href="#统计学的大分类" class="headerlink" title="统计学的大分类"></a>统计学的大分类</h1><ul>
 <li>描述统计学<br>使用特定的数字或图表来体现数据的集中和离散程度。如：平均值，最值，值的分布。</li>
 <li>推断统计学<br>根据样本数据推断总体数据特征。如：产品质量检查时使用抽检。</li>
@@ -410,9 +435,9 @@
 <h1 id="离散程度的描述"><a href="#离散程度的描述" class="headerlink" title="离散程度的描述"></a>离散程度的描述</h1><p>一组数据，距离中心越远，则越离散。</p>
 <ul>
 <li>极差：最大值-最小值</li>
-<li>方差：$\sigma^{2} = \frac{\sum\limits<em>{i=1}^{n} \left(x</em>{i} - \bar{x}\right)^{2}} {n-1}$</li>
+<li>方差：$$\sigma^{2}=\frac{1}{N}\sum\limits_{i=1}^{N}(X_i-\mu)^2$$ 其中，$X_i$表示第i个数据的值，$\mu$表示数据集的均值。</li>
 </ul>
--->
+
       
     </div>
     
@@ -533,8 +558,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <p class="site-author-name" itemprop="name">蓑笠翁</p>
@@ -622,6 +656,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#统计学的大分类"><span class="nav-number">1.</span> <span class="nav-text">统计学的大分类</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#集中趋势"><span class="nav-number">2.</span> <span class="nav-text">集中趋势</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#离散程度的描述"><span class="nav-number">3.</span> <span class="nav-text">离散程度的描述</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1150,6 +1200,6 @@
   
 
   <!-- 小红心 -->
-  <script type="text/javascript" src="/js/src/love.js"></script>
+  <script type="text/javascript" src="/js/src/love.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </body>
 </html>
