@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://haibaraxx.github.io/basicstats/</loc>
-    <lastmod>2017-10-28T11:17:14.000Z</lastmod>
+    <lastmod>2017-10-28T11:27:35.000Z</lastmod>
     <data>
         <display>
         <title>统计学基础</title>
@@ -277,13 +277,13 @@
         <title>Mac下改变Jupyter Notebook默认目录路径</title>
         <pubTime>2017-09-28T20:34:13.000Z</pubTime>
         
+        <tag>Mac</tag>
+         
         <tag>Python</tag>
          
         <tag>Jupyter Notebook</tag>
          
         <tag>iPython</tag>
-         
-        <tag>Mac</tag>
          
          
            
@@ -326,9 +326,9 @@
         <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
         <pubTime>2017-09-28T18:30:16.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Linux</tag>
+         
+        <tag>Mac</tag>
          
         <tag>Geany</tag>
          
