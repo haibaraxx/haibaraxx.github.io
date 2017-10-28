@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[统计学基础]]></title>
-    <url>%2Fbasicstats%2F</url>
-    <content type="text"><![CDATA[统计学的大分类 描述统计学使用特定的数字或图表来体现数据的集中和离散程度。如：平均值，最值，值的分布。 推断统计学根据样本数据推断总体数据特征。如：产品质量检查时使用抽检。 集中趋势一组数据向中心值靠拢的程度。 均值：描述平均水平。 中位数：描述中等水平。 众数：描述一般水平。 优点 缺点 均值 充分利用所有数据，适用性强 容易受到极端值影响 中位数 不受极端值影响 缺乏敏感性 众数 当数据具有明显的集中趋势时，代表性好；不受极端值影响 缺乏唯一性：可能有一个，或多个，或没有 离散程度的描述一组数据，距离中心越远，则越离散。 极差：最大值-最小值 方差：$$\sigma^{2}=\frac{1}{N}\sum\limits_{i=1}^{N}(X_i-\mu)^2$$ 其中，$X_i$表示第i个数据的值，$\mu$表示数据集的均值。]]></content>
-      <categories>
-        <category>statistics</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[MathJax：为Markdown文件插入LaTex数学公式]]></title>
     <url>%2Feqs%2F</url>
-    <content type="text"><![CDATA[Step1：在Markdown文件插入如下代码： 1&lt;script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"&gt;&lt;/script&gt; Step2：用Markdown语法编写数学公式（支持LaTex语法）。如：1$$x=\frac&#123;-b\pm\sqrt&#123;b^2-4ac&#125;&#125;&#123;2a&#125;$$ $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$ LaTex数学符号大全：http://reu.dimacs.rutgers.edu/Symbols.pdf 此外，如果想让hexo博文的md文件自动添加Step1中的代码，而不用在每次撰写博文时都拷贝它，只需在模板文件~/scaffolds/post.md中添加这行代码。]]></content>
+    <content type="text"><![CDATA[本文参考：http://www.atjiang.com/markdown-present-math-formula-with-mathjax/ Step1：在Markdown文件插入如下代码： 123456&lt;script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"&gt;&lt;/script&gt;&lt;script type="text/x-mathjax-config"&gt; MathJax.Hub.Config(&#123;tex2jax: &#123;inlineMath: [['$','$'], ['\\(','\\)']]&#125;&#125;);&lt;/script&gt; Step2：用Markdown语法编写数学公式（支持LaTex语法）。如：123$$\sigma^&#123;2&#125;=\frac&#123;1&#125;&#123;N&#125;\sum\limits_&#123;i=1&#125;^&#123;N&#125;(X_i-\mu)^2$$ 其中，$X_i$表示第i个数据的值，$\mu$表示数据集的均值。 $$\sigma^{2}=\frac{1}{N}\sum\limits_{i=1}^{N}(X_i-\mu)^2$$ 其中，$X_i$表示第i个数据的值，$\mu$表示数据集的均值。 LaTex数学符号大全：http://reu.dimacs.rutgers.edu/Symbols.pdf 此外，如果想让hexo博文的md文件自动添加Step1中的代码，而不用在每次撰写博文时都拷贝它，只需在模板文件~/scaffolds/post.md中添加这行代码。 MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
