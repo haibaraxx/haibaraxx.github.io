@@ -4,6 +4,44 @@
 
     
   <url>
+    <loc>https://haibaraxx.github.io/phonetics/</loc>
+    <lastmod>2017-11-05T14:51:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>英式英语音标</title>
+        <pubTime>2017-11-05T14:45:47.000Z</pubTime>
+        
+        <tag>英语</tag>
+         
+         
+           
+             
+              <breadCrumb title="英语" url="https://haibaraxx.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/basicstats/</loc>
+    <lastmod>2017-10-31T19:36:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>统计学基础</title>
+        <pubTime>2017-10-28T09:54:45.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="statistics" url="https://haibaraxx.github.io/categories/statistics/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://haibaraxx.github.io/eqs/</loc>
     <lastmod>2017-10-28T21:06:58.000Z</lastmod>
     <data>
@@ -21,24 +59,6 @@
            
              
               <breadCrumb title="Hexo" url="https://haibaraxx.github.io/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://haibaraxx.github.io/basicstats/</loc>
-    <lastmod>2017-10-28T21:04:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>统计学基础</title>
-        <pubTime>2017-10-28T09:54:45.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="statistics" url="https://haibaraxx.github.io/categories/statistics/"/>
           
         </display>
     </data>
@@ -281,13 +301,13 @@
         <title>Mac下改变Jupyter Notebook默认目录路径</title>
         <pubTime>2017-09-28T20:34:13.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Python</tag>
          
         <tag>Jupyter Notebook</tag>
          
         <tag>iPython</tag>
+         
+        <tag>Mac</tag>
          
          
            
@@ -330,9 +350,9 @@
         <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
         <pubTime>2017-09-28T18:30:16.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Mac</tag>
+         
+        <tag>Linux</tag>
          
         <tag>Geany</tag>
          
