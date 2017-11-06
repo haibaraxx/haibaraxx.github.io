@@ -4,11 +4,31 @@
 
     
   <url>
-    <loc>https://haibaraxx.github.io/phonetics/</loc>
-    <lastmod>2017-11-05T14:51:45.000Z</lastmod>
+    <loc>https://haibaraxx.github.io/shortenings/</loc>
+    <lastmod>2017-11-06T00:40:03.000Z</lastmod>
     <data>
         <display>
-        <title>英式英语音标</title>
+        <title>地道的英式英语口语</title>
+        <pubTime>2017-11-05T22:07:31.000Z</pubTime>
+        
+        <tag>英语</tag>
+         
+         
+           
+             
+              <breadCrumb title="语言" url="https://haibaraxx.github.io/categories/%E8%AF%AD%E8%A8%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://haibaraxx.github.io/phonetics/</loc>
+    <lastmod>2017-11-05T20:09:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>系统学习IPA（英式）英语音标</title>
         <pubTime>2017-11-05T14:45:47.000Z</pubTime>
         
         <tag>英语</tag>
@@ -16,7 +36,7 @@
          
            
              
-              <breadCrumb title="英语" url="https://haibaraxx.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
+              <breadCrumb title="语言" url="https://haibaraxx.github.io/categories/%E8%AF%AD%E8%A8%80/"/>
           
         </display>
     </data>
@@ -301,13 +321,13 @@
         <title>Mac下改变Jupyter Notebook默认目录路径</title>
         <pubTime>2017-09-28T20:34:13.000Z</pubTime>
         
+        <tag>Mac</tag>
+         
         <tag>Python</tag>
          
         <tag>Jupyter Notebook</tag>
          
         <tag>iPython</tag>
-         
-        <tag>Mac</tag>
          
          
            
@@ -350,9 +370,9 @@
         <title>在Mac终端上用Geany和Sublime Text打开文本文件</title>
         <pubTime>2017-09-28T18:30:16.000Z</pubTime>
         
-        <tag>Mac</tag>
-         
         <tag>Linux</tag>
+         
+        <tag>Mac</tag>
          
         <tag>Geany</tag>
          
